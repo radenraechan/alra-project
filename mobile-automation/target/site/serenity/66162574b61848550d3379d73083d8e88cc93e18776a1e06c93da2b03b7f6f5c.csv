@@ -1,0 +1,4 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"Calculated Numbers","Adding two numbers","SUCCESS","2022-04-17T04:39:19.023+07:00[Asia/Bangkok]","0.0","114.34"
+"Calculated Numbers","Substracting two numbers","SUCCESS","2022-04-17T04:41:13.378+07:00[Asia/Bangkok]","0.0","111.48"
+"Calculated Numbers","Dividing two numbers","SUCCESS","2022-04-17T04:46:01.12+07:00[Asia/Bangkok]","0.0","109.52"

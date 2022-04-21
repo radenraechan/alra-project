@@ -1,0 +1,7 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"Calculated Numbers","Adding two numbers","SUCCESS","2022-04-17T04:39:19.023+07:00[Asia/Bangkok]","0.0","114.34"
+"Calculated Numbers","Substracting two numbers","SUCCESS","2022-04-17T04:41:13.378+07:00[Asia/Bangkok]","0.0","111.48"
+"Calculated Numbers","Multiplying two numbers","ERROR","2022-04-17T04:43:04.869+07:00[Asia/Bangkok]","0.0","176.23"
+"Calculated Numbers","Dividing two numbers","SUCCESS","2022-04-17T04:46:01.12+07:00[Asia/Bangkok]","0.0","109.52"
+"History","See history","SUCCESS","2022-04-17T04:47:50.654+07:00[Asia/Bangkok]","0.0","35.75"
+"History","Delete history","SUCCESS","2022-04-17T04:48:26.417+07:00[Asia/Bangkok]","0.0","37.84"

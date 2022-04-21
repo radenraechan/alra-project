@@ -1,0 +1,4 @@
+com\example\steps\HistoryStepDefinitions.class
+com\example\steps\CalculateStepDefinitions.class
+com\example\acceptancetests\AcceptanceTestSuite.class
+com\example\hooks\AndroidDriverHook.class

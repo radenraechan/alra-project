@@ -1,0 +1,28 @@
+-------------------------------------------------------------------------------
+Test set: com.example.acceptancetests.AcceptanceTestSuite
+-------------------------------------------------------------------------------
+Tests run: 14, Failures: 0, Errors: 2, Skipped: 0, Time elapsed: 590.071 s <<< FAILURE! - in com.example.acceptancetests.AcceptanceTestSuite
+Calculated Numbers.Multiplying two numbers #2  Time elapsed: 68.342 s  <<< ERROR!
+org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: //android.view.View[@content-desc="50"] (tried for 30 second(s) with 1000 milliseconds interval)
+Caused by: org.openqa.selenium.NoSuchElementException: 
+An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-T1G9LT0', ip: '192.168.174.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {app: C:\Users\my laptop\Document..., appPackage: com.example.calculator, automationName: UiAutomator2, databaseEnabled: false, desired: {app: C:\Users\my laptop\Document..., automationName: UiAutomator2, platformName: android, platformVersion: 7.0}, deviceApiLevel: 24, deviceManufacturer: Google, deviceModel: Android SDK built for x86, deviceName: emulator-5554, deviceScreenDensity: 420, deviceScreenSize: 1080x1920, deviceUDID: emulator-5554, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, pixelRatio: 2.625, platform: LINUX, platformName: Android, platformVersion: 7.0, statBarHeight: 63, takesScreenshot: true, viewportRect: {height: 1731, left: 0, top: 63, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: d35fba22-7687-4f3e-bbd3-4641b9b2334b
+*** Element info: {Using=xpath, value=//android.view.View[@content-desc="50"]}
+
+Calculated Numbers.Multiplying two numbers #3  Time elapsed: 72.026 s  <<< ERROR!
+org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: //android.view.View[@content-desc="2500"] (tried for 30 second(s) with 1000 milliseconds interval)
+Caused by: org.openqa.selenium.NoSuchElementException: 
+An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-T1G9LT0', ip: '192.168.174.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {app: C:\Users\my laptop\Document..., appPackage: com.example.calculator, automationName: UiAutomator2, databaseEnabled: false, desired: {app: C:\Users\my laptop\Document..., automationName: UiAutomator2, platformName: android, platformVersion: 7.0}, deviceApiLevel: 24, deviceManufacturer: Google, deviceModel: Android SDK built for x86, deviceName: emulator-5554, deviceScreenDensity: 420, deviceScreenSize: 1080x1920, deviceUDID: emulator-5554, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, pixelRatio: 2.625, platform: LINUX, platformName: Android, platformVersion: 7.0, statBarHeight: 63, takesScreenshot: true, viewportRect: {height: 1731, left: 0, top: 63, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: 179c4e2d-1bf1-4281-becc-e0bf3bc09024
+*** Element info: {Using=xpath, value=//android.view.View[@content-desc="2500"]}
+

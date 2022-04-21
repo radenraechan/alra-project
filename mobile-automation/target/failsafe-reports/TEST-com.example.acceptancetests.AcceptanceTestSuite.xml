@@ -1,0 +1,694 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-failsafe-plugin/xsd/failsafe-test-report-3.0.xsd" version="3.0" name="com.example.acceptancetests.AcceptanceTestSuite" time="590.071" tests="14" errors="2" skipped="0" failures="0">
+  <properties>
+    <property name="sun.desktop" value="windows"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\my laptop\Documents\NetBeansProjects\mobile-automation\target\test-classes;C:\Users\my laptop\Documents\NetBeansProjects\mobile-automation\target\mobile-automation-1.0-SNAPSHOT.jar;C:\Users\my laptop\.m2\repository\net\serenity-bdd\serenity-core\2.3.2\serenity-core-2.3.2.jar;C:\Users\my laptop\.m2\repository\net\bytebuddy\byte-buddy\1.10.1\byte-buddy-1.10.1.jar;C:\Users\my laptop\.m2\repository\net\bytebuddy\byte-buddy-agent\1.10.1\byte-buddy-agent-1.10.1.jar;C:\Users\my laptop\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;C:\Users\my laptop\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\my laptop\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\my laptop\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\my laptop\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\my laptop\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\my laptop\.m2\repository\com\google\inject\guice\4.2.2\guice-4.2.2.jar;C:\Users\my laptop\.m2\repository\javax\inject\javax.inject\1\javax.inject-1.jar;C:\Users\my laptop\.m2\repository\aopalliance\aopalliance\1.0\aopalliance-1.0.jar;C:\Users\my laptop\.m2\repository\org\ow2\asm\asm\7.2\asm-7.2.jar;C:\Users\my laptop\.m2\repository\commons-codec\commons-codec\1.10\commons-codec-1.10.jar;C:\Users\my laptop\.m2\repository\org\objenesis\objenesis\3.0.1\objenesis-3.0.1.jar;C:\Users\my laptop\.m2\repository\org\slf4j\slf4j-api\1.7.26\slf4j-api-1.7.26.jar;C:\Users\my laptop\.m2\repository\xml-apis\xml-apis\1.4.01\xml-apis-1.4.01.jar;C:\Users\my laptop\.m2\repository\io\cucumber\cucumber-core\6.6.0\cucumber-core-6.6.0.jar;C:\Users\my laptop\.m2\repository\io\cucumber\cucumber-gherkin\6.6.0\cucumber-gherkin-6.6.0.jar;C:\Users\my laptop\.m2\repository\io\cucumber\cucumber-gherkin-messages\6.6.0\cucumber-gherkin-messages-6.6.0.jar;C:\Users\my laptop\.m2\repository\io\cucumber\messages\13.0.1\messages-13.0.1.jar;C:\Users\my laptop\.m2\repository\io\cucumber\tag-expressions\3.0.0\tag-expressions-3.0.0.jar;C:\Users\my laptop\.m2\repository\io\cucumber\cucumber-expressions\10.3.0\cucumber-expressions-10.3.0.jar;C:\Users\my laptop\.m2\repository\io\cucumber\datatable\3.4.0\datatable-3.4.0.jar;C:\Users\my laptop\.m2\repository\io\cucumber\cucumber-plugin\6.6.0\cucumber-plugin-6.6.0.jar;C:\Users\my laptop\.m2\repository\io\cucumber\docstring\6.6.0\docstring-6.6.0.jar;C:\Users\my laptop\.m2\repository\io\cucumber\html-formatter\9.0.0\html-formatter-9.0.0.jar;C:\Users\my laptop\.m2\repository\io\cucumber\create-meta\2.0.1\create-meta-2.0.1.jar;C:\Users\my laptop\.m2\repository\io\cucumber\cucumber-java\6.6.0\cucumber-java-6.6.0.jar;C:\Users\my laptop\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\my laptop\.m2\repository\io\vavr\vavr\0.9.0\vavr-0.9.0.jar;C:\Users\my laptop\.m2\repository\io\vavr\vavr-match\0.9.0\vavr-match-0.9.0.jar;C:\Users\my laptop\.m2\repository\javax\xml\bind\jaxb-api\2.2.12\jaxb-api-2.2.12.jar;C:\Users\my laptop\.m2\repository\com\sun\xml\bind\jaxb-core\2.3.0.1\jaxb-core-2.3.0.1.jar;C:\Users\my laptop\.m2\repository\com\sun\xml\bind\jaxb-impl\2.3.0.1\jaxb-impl-2.3.0.1.jar;C:\Users\my laptop\.m2\repository\javax\activation\activation\1.1.1\activation-1.1.1.jar;C:\Users\my laptop\.m2\repository\org\mockito\mockito-core\3.1.0\mockito-core-3.1.0.jar;C:\Users\my laptop\.m2\repository\net\serenity-bdd\serenity-report-resources\2.3.2\serenity-report-resources-2.3.2.jar;C:\Users\my laptop\.m2\repository\net\serenity-bdd\serenity-model\2.3.2\serenity-model-2.3.2.jar;C:\Users\my laptop\.m2\repository\commons-net\commons-net\3.6\commons-net-3.6.jar;C:\Users\my laptop\.m2\repository\org\apache\commons\commons-text\1.6\commons-text-1.6.jar;C:\Users\my laptop\.m2\repository\org\reflections\reflections\0.9.11\reflections-0.9.11.jar;C:\Users\my laptop\.m2\repository\org\javassist\javassist\3.21.0-GA\javassist-3.21.0-GA.jar;C:\Users\my laptop\.m2\repository\es\nitaur\markdown\txtmark\0.16\txtmark-0.16.jar;C:\Users\my laptop\.m2\repository\net\serenity-bdd\serenity-reports\2.3.2\serenity-reports-2.3.2.jar;C:\Users\my laptop\.m2\repository\net\serenity-bdd\serenity-stats\2.3.2\serenity-stats-2.3.2.jar;C:\Users\my laptop\.m2\repository\com\google\code\gson\gson\2.8.6\gson-2.8.6.jar;C:\Users\my laptop\.m2\repository\commons-io\commons-io\2.6\commons-io-2.6.jar;C:\Users\my laptop\.m2\repository\org\seleniumhq\selenium\selenium-server\3.141.59\selenium-server-3.141.59.jar;C:\Users\my laptop\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.59\selenium-firefox-driver-3.141.59.jar;C:\Users\my laptop\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.141.59\selenium-ie-driver-3.141.59.jar;C:\Users\my laptop\.m2\repository\com\beust\jcommander\1.72\jcommander-1.72.jar;C:\Users\my laptop\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\my laptop\.m2\repository\net\jcip\jcip-annotations\1.0\jcip-annotations-1.0.jar;C:\Users\my laptop\.m2\repository\org\seleniumhq\selenium\jetty-repacked\9.4.12.v20180830\jetty-repacked-9.4.12.v20180830.jar;C:\Users\my laptop\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar;C:\Users\my laptop\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar;C:\Users\my laptop\.m2\repository\javax\servlet\javax.servlet-api\3.1.0\javax.servlet-api-3.1.0.jar;C:\Users\my laptop\.m2\repository\org\seleniumhq\selenium\selenium-java\3.141.59\selenium-java-3.141.59.jar;C:\Users\my laptop\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.59\selenium-api-3.141.59.jar;C:\Users\my laptop\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.59\selenium-chrome-driver-3.141.59.jar;C:\Users\my laptop\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.141.59\selenium-edge-driver-3.141.59.jar;C:\Users\my laptop\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar;C:\Users\my laptop\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.141.59\selenium-safari-driver-3.141.59.jar;C:\Users\my laptop\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.141.59\selenium-opera-driver-3.141.59.jar;C:\Users\my laptop\.m2\repository\org\seleniumhq\selenium\selenium-support\3.141.59\selenium-support-3.141.59.jar;C:\Users\my laptop\.m2\repository\com\paulhammant\ngwebdriver\1.1.5\ngwebdriver-1.1.5.jar;C:\Users\my laptop\.m2\repository\com\assertthat\selenium-shutterbug\0.9.3\selenium-shutterbug-0.9.3.jar;C:\Users\my laptop\.m2\repository\org\projectlombok\lombok\1.18.8\lombok-1.18.8.jar;C:\Users\my laptop\.m2\repository\com\github\zafarkhaja\java-semver\0.9.0\java-semver-0.9.0.jar;C:\Users\my laptop\.m2\repository\com\codeborne\phantomjsdriver\1.4.4\phantomjsdriver-1.4.4.jar;C:\Users\my laptop\.m2\repository\org\seleniumhq\selenium\htmlunit-driver\2.37.0\htmlunit-driver-2.37.0.jar;C:\Users\my laptop\.m2\repository\org\springframework\spring-context-support\5.1.2.RELEASE\spring-context-support-5.1.2.RELEASE.jar;C:\Users\my laptop\.m2\repository\org\springframework\spring-beans\5.1.2.RELEASE\spring-beans-5.1.2.RELEASE.jar;C:\Users\my laptop\.m2\repository\org\springframework\spring-core\5.1.2.RELEASE\spring-core-5.1.2.RELEASE.jar;C:\Users\my laptop\.m2\repository\org\springframework\spring-jcl\5.1.2.RELEASE\spring-jcl-5.1.2.RELEASE.jar;C:\Users\my laptop\.m2\repository\org\codehaus\groovy\groovy\2.5.5\groovy-2.5.5.jar;C:\Users\my laptop\.m2\repository\net\sf\opencsv\opencsv\2.0\opencsv-2.0.jar;C:\Users\my laptop\.m2\repository\commons-beanutils\commons-beanutils-core\1.8.3\commons-beanutils-core-1.8.3.jar;C:\Users\my laptop\.m2\repository\joda-time\joda-time\2.7\joda-time-2.7.jar;C:\Users\my laptop\.m2\repository\com\thoughtworks\xstream\xstream\1.4.9\xstream-1.4.9.jar;C:\Users\my laptop\.m2\repository\xmlpull\xmlpull\1.1.3.1\xmlpull-1.1.3.1.jar;C:\Users\my laptop\.m2\repository\xpp3\xpp3_min\1.1.4c\xpp3_min-1.1.4c.jar;C:\Users\my laptop\.m2\repository\org\apache\commons\commons-lang3\3.8.1\commons-lang3-3.8.1.jar;C:\Users\my laptop\.m2\repository\commons-collections\commons-collections\3.2.2\commons-collections-3.2.2.jar;C:\Users\my laptop\.m2\repository\org\freemarker\freemarker\2.3.29\freemarker-2.3.29.jar;C:\Users\my laptop\.m2\repository\net\sourceforge\jexcelapi\jxl\2.6.12\jxl-2.6.12.jar;C:\Users\my laptop\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\my laptop\.m2\repository\org\hamcrest\hamcrest-library\1.3\hamcrest-library-1.3.jar;C:\Users\my laptop\.m2\repository\net\sourceforge\htmlunit\htmlunit\2.37.0\htmlunit-2.37.0.jar;C:\Users\my laptop\.m2\repository\net\sourceforge\htmlunit\htmlunit-core-js\2.37.0\htmlunit-core-js-2.37.0.jar;C:\Users\my laptop\.m2\repository\net\sourceforge\htmlunit\neko-htmlunit\2.37.0\neko-htmlunit-2.37.0.jar;C:\Users\my laptop\.m2\repository\xerces\xercesImpl\2.12.0\xercesImpl-2.12.0.jar;C:\Users\my laptop\.m2\repository\net\sourceforge\htmlunit\htmlunit-cssparser\1.5.0\htmlunit-cssparser-1.5.0.jar;C:\Users\my laptop\.m2\repository\org\brotli\dec\0.1.2\dec-0.1.2.jar;C:\Users\my laptop\.m2\repository\org\eclipse\jetty\websocket\websocket-client\9.4.26.v20200117\websocket-client-9.4.26.v20200117.jar;C:\Users\my laptop\.m2\repository\org\eclipse\jetty\jetty-client\9.4.26.v20200117\jetty-client-9.4.26.v20200117.jar;C:\Users\my laptop\.m2\repository\org\eclipse\jetty\jetty-http\9.4.26.v20200117\jetty-http-9.4.26.v20200117.jar;C:\Users\my laptop\.m2\repository\org\eclipse\jetty\jetty-xml\9.4.26.v20200117\jetty-xml-9.4.26.v20200117.jar;C:\Users\my laptop\.m2\repository\org\eclipse\jetty\jetty-util\9.4.26.v20200117\jetty-util-9.4.26.v20200117.jar;C:\Users\my laptop\.m2\repository\org\eclipse\jetty\jetty-io\9.4.26.v20200117\jetty-io-9.4.26.v20200117.jar;C:\Users\my laptop\.m2\repository\org\eclipse\jetty\websocket\websocket-common\9.4.26.v20200117\websocket-common-9.4.26.v20200117.jar;C:\Users\my laptop\.m2\repository\org\eclipse\jetty\websocket\websocket-api\9.4.26.v20200117\websocket-api-9.4.26.v20200117.jar;C:\Users\my laptop\.m2\repository\org\apache\httpcomponents\httpclient\4.5.5\httpclient-4.5.5.jar;C:\Users\my laptop\.m2\repository\org\apache\httpcomponents\httpcore\4.4.9\httpcore-4.4.9.jar;C:\Users\my laptop\.m2\repository\org\apache\httpcomponents\httpmime\4.5.5\httpmime-4.5.5.jar;C:\Users\my laptop\.m2\repository\org\fluentlenium\fluentlenium-core\0.10.2\fluentlenium-core-0.10.2.jar;C:\Users\my laptop\.m2\repository\com\jhlabs\filters\2.0.235\filters-2.0.235.jar;C:\Users\my laptop\.m2\repository\org\asciidoctor\asciidoctorj\1.5.6\asciidoctorj-1.5.6.jar;C:\Users\my laptop\.m2\repository\org\jruby\jruby-complete\1.7.26\jruby-complete-1.7.26.jar;C:\Users\my laptop\.m2\repository\org\imgscalr\imgscalr-lib\4.2\imgscalr-lib-4.2.jar;C:\Users\my laptop\.m2\repository\javax\el\javax.el-api\2.2.4\javax.el-api-2.2.4.jar;C:\Users\my laptop\.m2\repository\org\glassfish\web\javax.el\2.2.4\javax.el-2.2.4.jar;C:\Users\my laptop\.m2\repository\xalan\xalan\2.7.2\xalan-2.7.2.jar;C:\Users\my laptop\.m2\repository\xalan\serializer\2.7.2\serializer-2.7.2.jar;C:\Users\my laptop\.m2\repository\org\awaitility\awaitility\4.0.1\awaitility-4.0.1.jar;C:\Users\my laptop\.m2\repository\org\hamcrest\hamcrest\2.1\hamcrest-2.1.jar;C:\Users\my laptop\.m2\repository\com\typesafe\config\1.3.1\config-1.3.1.jar;C:\Users\my laptop\.m2\repository\org\jsoup\jsoup\1.10.3\jsoup-1.10.3.jar;C:\Users\my laptop\.m2\repository\com\google\jimfs\jimfs\1.1\jimfs-1.1.jar;C:\Users\my laptop\.m2\repository\com\vladsch\flexmark\flexmark-all\0.34.30\flexmark-all-0.34.30.jar;C:\Users\my laptop\.m2\repository\com\vladsch\flexmark\flexmark\0.34.30\flexmark-0.34.30.jar;C:\Users\my laptop\.m2\repository\com\vladsch\flexmark\flexmark-ext-abbreviation\0.34.30\flexmark-ext-abbreviation-0.34.30.jar;C:\Users\my laptop\.m2\repository\com\vladsch\flexmark\flexmark-ext-admonition\0.34.30\flexmark-ext-admonition-0.34.30.jar;C:\Users\my laptop\.m2\repository\com\vladsch\flexmark\flexmark-ext-anchorlink\0.34.30\flexmark-ext-anchorlink-0.34.30.jar;C:\Users\my laptop\.m2\repository\com\vladsch\flexmark\flexmark-ext-aside\0.34.30\flexmark-ext-aside-0.34.30.jar;C:\Users\my laptop\.m2\repository\com\vladsch\flexmark\flexmark-ext-attributes\0.34.30\flexmark-ext-attributes-0.34.30.jar;C:\Users\my laptop\.m2\repository\com\vladsch\flexmark\flexmark-ext-autolink\0.34.30\flexmark-ext-autolink-0.34.30.jar;C:\Users\my laptop\.m2\repository\org\nibor\autolink\autolink\0.6.0\autolink-0.6.0.jar;C:\Users\my laptop\.m2\repository\com\vladsch\flexmark\flexmark-ext-definition\0.34.30\flexmark-ext-definition-0.34.30.jar;C:\Users\my laptop\.m2\repository\com\vladsch\flexmark\flexmark-ext-emoji\0.34.30\flexmark-ext-emoji-0.34.30.jar;C:\Users\my laptop\.m2\repository\com\vladsch\flexmark\flexmark-ext-enumerated-reference\0.34.30\flexmark-ext-enumerated-reference-0.34.30.jar;C:\Users\my laptop\.m2\repository\com\vladsch\flexmark\flexmark-ext-escaped-character\0.34.30\flexmark-ext-escaped-character-0.34.30.jar;C:\Users\my laptop\.m2\repository\com\vladsch\flexmark\flexmark-ext-footnotes\0.34.30\flexmark-ext-footnotes-0.34.30.jar;C:\Users\my laptop\.m2\repository\com\vladsch\flexmark\flexmark-ext-gfm-issues\0.34.30\flexmark-ext-gfm-issues-0.34.30.jar;C:\Users\my laptop\.m2\repository\com\vladsch\flexmark\flexmark-ext-gfm-strikethrough\0.34.30\flexmark-ext-gfm-strikethrough-0.34.30.jar;C:\Users\my laptop\.m2\repository\com\vladsch\flexmark\flexmark-ext-gfm-tables\0.34.30\flexmark-ext-gfm-tables-0.34.30.jar;C:\Users\my laptop\.m2\repository\com\vladsch\flexmark\flexmark-ext-gfm-tasklist\0.34.30\flexmark-ext-gfm-tasklist-0.34.30.jar;C:\Users\my laptop\.m2\repository\com\vladsch\flexmark\flexmark-ext-gfm-users\0.34.30\flexmark-ext-gfm-users-0.34.30.jar;C:\Users\my laptop\.m2\repository\com\vladsch\flexmark\flexmark-ext-gitlab\0.34.30\flexmark-ext-gitlab-0.34.30.jar;C:\Users\my laptop\.m2\repository\com\vladsch\flexmark\flexmark-ext-jekyll-front-matter\0.34.30\flexmark-ext-jekyll-front-matter-0.34.30.jar;C:\Users\my laptop\.m2\repository\com\vladsch\flexmark\flexmark-ext-jekyll-tag\0.34.30\flexmark-ext-jekyll-tag-0.34.30.jar;C:\Users\my laptop\.m2\repository\com\vladsch\flexmark\flexmark-ext-media-tags\0.34.30\flexmark-ext-media-tags-0.34.30.jar;C:\Users\my laptop\.m2\repository\com\vladsch\flexmark\flexmark-test-util\0.34.30\flexmark-test-util-0.34.30.jar;C:\Users\my laptop\.m2\repository\com\vladsch\flexmark\flexmark-ext-ins\0.34.30\flexmark-ext-ins-0.34.30.jar;C:\Users\my laptop\.m2\repository\com\vladsch\flexmark\flexmark-ext-xwiki-macros\0.34.30\flexmark-ext-xwiki-macros-0.34.30.jar;C:\Users\my laptop\.m2\repository\com\vladsch\flexmark\flexmark-ext-superscript\0.34.30\flexmark-ext-superscript-0.34.30.jar;C:\Users\my laptop\.m2\repository\com\vladsch\flexmark\flexmark-ext-tables\0.34.30\flexmark-ext-tables-0.34.30.jar;C:\Users\my laptop\.m2\repository\com\vladsch\flexmark\flexmark-ext-toc\0.34.30\flexmark-ext-toc-0.34.30.jar;C:\Users\my laptop\.m2\repository\com\vladsch\flexmark\flexmark-ext-typographic\0.34.30\flexmark-ext-typographic-0.34.30.jar;C:\Users\my laptop\.m2\repository\com\vladsch\flexmark\flexmark-ext-wikilink\0.34.30\flexmark-ext-wikilink-0.34.30.jar;C:\Users\my laptop\.m2\repository\com\vladsch\flexmark\flexmark-ext-yaml-front-matter\0.34.30\flexmark-ext-yaml-front-matter-0.34.30.jar;C:\Users\my laptop\.m2\repository\com\vladsch\flexmark\flexmark-ext-youtube-embedded\0.34.30\flexmark-ext-youtube-embedded-0.34.30.jar;C:\Users\my laptop\.m2\repository\com\vladsch\flexmark\flexmark-formatter\0.34.30\flexmark-formatter-0.34.30.jar;C:\Users\my laptop\.m2\repository\com\vladsch\flexmark\flexmark-html-parser\0.34.30\flexmark-html-parser-0.34.30.jar;C:\Users\my laptop\.m2\repository\com\vladsch\flexmark\flexmark-jira-converter\0.34.30\flexmark-jira-converter-0.34.30.jar;C:\Users\my laptop\.m2\repository\com\vladsch\flexmark\flexmark-pdf-converter\0.34.30\flexmark-pdf-converter-0.34.30.jar;C:\Users\my laptop\.m2\repository\com\openhtmltopdf\openhtmltopdf-core\0.0.1-RC13\openhtmltopdf-core-0.0.1-RC13.jar;C:\Users\my laptop\.m2\repository\com\openhtmltopdf\openhtmltopdf-pdfbox\0.0.1-RC13\openhtmltopdf-pdfbox-0.0.1-RC13.jar;C:\Users\my laptop\.m2\repository\org\apache\pdfbox\pdfbox\2.0.8\pdfbox-2.0.8.jar;C:\Users\my laptop\.m2\repository\org\apache\pdfbox\fontbox\2.0.8\fontbox-2.0.8.jar;C:\Users\my laptop\.m2\repository\org\apache\pdfbox\xmpbox\2.0.8\xmpbox-2.0.8.jar;C:\Users\my laptop\.m2\repository\de\rototor\pdfbox\graphics2d\0.12\graphics2d-0.12.jar;C:\Users\my laptop\.m2\repository\com\openhtmltopdf\openhtmltopdf-rtl-support\0.0.1-RC13\openhtmltopdf-rtl-support-0.0.1-RC13.jar;C:\Users\my laptop\.m2\repository\com\ibm\icu\icu4j\59.1\icu4j-59.1.jar;C:\Users\my laptop\.m2\repository\com\openhtmltopdf\openhtmltopdf-jsoup-dom-converter\0.0.1-RC13\openhtmltopdf-jsoup-dom-converter-0.0.1-RC13.jar;C:\Users\my laptop\.m2\repository\com\vladsch\flexmark\flexmark-profile-pegdown\0.34.30\flexmark-profile-pegdown-0.34.30.jar;C:\Users\my laptop\.m2\repository\com\vladsch\flexmark\flexmark-util\0.34.30\flexmark-util-0.34.30.jar;C:\Users\my laptop\.m2\repository\com\vladsch\flexmark\flexmark-youtrack-converter\0.34.30\flexmark-youtrack-converter-0.34.30.jar;C:\Users\my laptop\.m2\repository\io\github\bonigarcia\webdrivermanager\4.1.0\webdrivermanager-4.1.0.jar;C:\Users\my laptop\.m2\repository\org\apache\httpcomponents\client5\httpclient5\5.0.1\httpclient5-5.0.1.jar;C:\Users\my laptop\.m2\repository\org\apache\httpcomponents\core5\httpcore5\5.0.1\httpcore5-5.0.1.jar;C:\Users\my laptop\.m2\repository\org\apache\httpcomponents\core5\httpcore5-h2\5.0.1\httpcore5-h2-5.0.1.jar;C:\Users\my laptop\.m2\repository\org\rauschig\jarchivelib\1.0.0\jarchivelib-1.0.0.jar;C:\Users\my laptop\.m2\repository\org\apache\commons\commons-compress\1.18\commons-compress-1.18.jar;C:\Users\my laptop\.m2\repository\net\serenity-bdd\serenity-screenplay\2.3.2\serenity-screenplay-2.3.2.jar;C:\Users\my laptop\.m2\repository\net\serenity-bdd\serenity-screenplay-webdriver\2.3.2\serenity-screenplay-webdriver-2.3.2.jar;C:\Users\my laptop\.m2\repository\net\serenity-bdd\serenity-ensure\2.3.2\serenity-ensure-2.3.2.jar;C:\Users\my laptop\.m2\repository\net\serenity-bdd\serenity-junit\2.3.2\serenity-junit-2.3.2.jar;C:\Users\my laptop\.m2\repository\org\jetbrains\kotlin\kotlin-stdlib\1.3.31\kotlin-stdlib-1.3.31.jar;C:\Users\my laptop\.m2\repository\org\jetbrains\kotlin\kotlin-stdlib-common\1.3.31\kotlin-stdlib-common-1.3.31.jar;C:\Users\my laptop\.m2\repository\org\jetbrains\annotations\13.0\annotations-13.0.jar;C:\Users\my laptop\.m2\repository\net\serenity-bdd\serenity-assertions\2.3.2\serenity-assertions-2.3.2.jar;C:\Users\my laptop\.m2\repository\net\serenity-bdd\serenity-screenplay-rest\2.3.2\serenity-screenplay-rest-2.3.2.jar;C:\Users\my laptop\.m2\repository\net\serenity-bdd\serenity-rest-assured\2.3.2\serenity-rest-assured-2.3.2.jar;C:\Users\my laptop\.m2\repository\io\rest-assured\rest-assured\3.3.0\rest-assured-3.3.0.jar;C:\Users\my laptop\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\my laptop\.m2\repository\io\rest-assured\json-path\3.3.0\json-path-3.3.0.jar;C:\Users\my laptop\.m2\repository\io\rest-assured\rest-assured-common\3.3.0\rest-assured-common-3.3.0.jar;C:\Users\my laptop\.m2\repository\io\rest-assured\xml-path\3.3.0\xml-path-3.3.0.jar;C:\Users\my laptop\.m2\repository\com\sun\xml\bind\jaxb-osgi\2.2.10\jaxb-osgi-2.2.10.jar;C:\Users\my laptop\.m2\repository\org\apache\sling\org.apache.sling.javax.activation\0.1.0\org.apache.sling.javax.activation-0.1.0.jar;C:\Users\my laptop\.m2\repository\org\codehaus\groovy\groovy-xml\2.5.5\groovy-xml-2.5.5.jar;C:\Users\my laptop\.m2\repository\org\codehaus\groovy\groovy-json\2.5.5\groovy-json-2.5.5.jar;C:\Users\my laptop\.m2\repository\net\serenity-bdd\serenity-cucumber6\2.3.2\serenity-cucumber6-2.3.2.jar;C:\Users\my laptop\.m2\repository\io\cucumber\cucumber-junit\6.6.0\cucumber-junit-6.6.0.jar;C:\Users\my laptop\.m2\repository\io\cucumber\datatable-matchers\3.4.0\datatable-matchers-3.4.0.jar;C:\Users\my laptop\.m2\repository\org\apache\commons\commons-csv\1.5\commons-csv-1.5.jar;C:\Users\my laptop\.m2\repository\junit\junit\4.12\junit-4.12.jar;C:\Users\my laptop\.m2\repository\org\slf4j\slf4j-simple\1.7.7\slf4j-simple-1.7.7.jar;C:\Users\my laptop\.m2\repository\org\junit\platform\junit-platform-launcher\1.5.2\junit-platform-launcher-1.5.2.jar;C:\Users\my laptop\.m2\repository\org\apiguardian\apiguardian-api\1.1.0\apiguardian-api-1.1.0.jar;C:\Users\my laptop\.m2\repository\org\junit\platform\junit-platform-engine\1.5.2\junit-platform-engine-1.5.2.jar;C:\Users\my laptop\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.5.2\junit-jupiter-engine-5.5.2.jar;C:\Users\my laptop\.m2\repository\org\junit\vintage\junit-vintage-engine\5.5.2\junit-vintage-engine-5.5.2.jar;C:\Users\my laptop\.m2\repository\org\assertj\assertj-core\3.13.2\assertj-core-3.13.2.jar;C:\Users\my laptop\.m2\repository\io\appium\java-client\7.6.0\java-client-7.6.0.jar;C:\Users\my laptop\.m2\repository\cglib\cglib\3.3.0\cglib-3.3.0.jar;C:\Users\my laptop\.m2\repository\commons-validator\commons-validator\1.7\commons-validator-1.7.jar;C:\Users\my laptop\.m2\repository\commons-beanutils\commons-beanutils\1.9.4\commons-beanutils-1.9.4.jar;C:\Users\my laptop\.m2\repository\commons-digester\commons-digester\2.1\commons-digester-2.1.jar;C:\Users\my laptop\.m2\repository\org\springframework\spring-context\5.3.10\spring-context-5.3.10.jar;C:\Users\my laptop\.m2\repository\org\springframework\spring-aop\5.3.10\spring-aop-5.3.10.jar;C:\Users\my laptop\.m2\repository\org\springframework\spring-expression\5.3.10\spring-expression-5.3.10.jar;C:\Users\my laptop\.m2\repository\org\aspectj\aspectjweaver\1.9.7\aspectjweaver-1.9.7.jar;C:\Users\my laptop\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.5.2\junit-jupiter-api-5.5.2.jar;C:\Users\my laptop\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\my laptop\.m2\repository\org\junit\platform\junit-platform-commons\1.5.2\junit-platform-commons-1.5.2.jar;C:\Users\my laptop\.m2\repository\org\yaml\snakeyaml\1.29\snakeyaml-1.29.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="user.timezone" value="Asia/Bangkok"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_202\jre\bin"/>
+    <property name="sun.java.command" value="C:\Users\my laptop\AppData\Local\Temp\surefire8381510932217711998\surefirebooter7210551085287413262.jar C:\Users\my laptop\AppData\Local\Temp\surefire8381510932217711998 2022-04-17T04-39-13_403-jvmRun1 surefire311362417768976190tmp surefire_0725588410687013000tmp"/>
+    <property name="surefire.test.class.path" value="C:\Users\my laptop\Documents\NetBeansProjects\mobile-automation\target\test-classes;C:\Users\my laptop\Documents\NetBeansProjects\mobile-automation\target\mobile-automation-1.0-SNAPSHOT.jar;C:\Users\my laptop\.m2\repository\net\serenity-bdd\serenity-core\2.3.2\serenity-core-2.3.2.jar;C:\Users\my laptop\.m2\repository\net\bytebuddy\byte-buddy\1.10.1\byte-buddy-1.10.1.jar;C:\Users\my laptop\.m2\repository\net\bytebuddy\byte-buddy-agent\1.10.1\byte-buddy-agent-1.10.1.jar;C:\Users\my laptop\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;C:\Users\my laptop\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\my laptop\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\my laptop\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\my laptop\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\my laptop\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\my laptop\.m2\repository\com\google\inject\guice\4.2.2\guice-4.2.2.jar;C:\Users\my laptop\.m2\repository\javax\inject\javax.inject\1\javax.inject-1.jar;C:\Users\my laptop\.m2\repository\aopalliance\aopalliance\1.0\aopalliance-1.0.jar;C:\Users\my laptop\.m2\repository\org\ow2\asm\asm\7.2\asm-7.2.jar;C:\Users\my laptop\.m2\repository\commons-codec\commons-codec\1.10\commons-codec-1.10.jar;C:\Users\my laptop\.m2\repository\org\objenesis\objenesis\3.0.1\objenesis-3.0.1.jar;C:\Users\my laptop\.m2\repository\org\slf4j\slf4j-api\1.7.26\slf4j-api-1.7.26.jar;C:\Users\my laptop\.m2\repository\xml-apis\xml-apis\1.4.01\xml-apis-1.4.01.jar;C:\Users\my laptop\.m2\repository\io\cucumber\cucumber-core\6.6.0\cucumber-core-6.6.0.jar;C:\Users\my laptop\.m2\repository\io\cucumber\cucumber-gherkin\6.6.0\cucumber-gherkin-6.6.0.jar;C:\Users\my laptop\.m2\repository\io\cucumber\cucumber-gherkin-messages\6.6.0\cucumber-gherkin-messages-6.6.0.jar;C:\Users\my laptop\.m2\repository\io\cucumber\messages\13.0.1\messages-13.0.1.jar;C:\Users\my laptop\.m2\repository\io\cucumber\tag-expressions\3.0.0\tag-expressions-3.0.0.jar;C:\Users\my laptop\.m2\repository\io\cucumber\cucumber-expressions\10.3.0\cucumber-expressions-10.3.0.jar;C:\Users\my laptop\.m2\repository\io\cucumber\datatable\3.4.0\datatable-3.4.0.jar;C:\Users\my laptop\.m2\repository\io\cucumber\cucumber-plugin\6.6.0\cucumber-plugin-6.6.0.jar;C:\Users\my laptop\.m2\repository\io\cucumber\docstring\6.6.0\docstring-6.6.0.jar;C:\Users\my laptop\.m2\repository\io\cucumber\html-formatter\9.0.0\html-formatter-9.0.0.jar;C:\Users\my laptop\.m2\repository\io\cucumber\create-meta\2.0.1\create-meta-2.0.1.jar;C:\Users\my laptop\.m2\repository\io\cucumber\cucumber-java\6.6.0\cucumber-java-6.6.0.jar;C:\Users\my laptop\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\my laptop\.m2\repository\io\vavr\vavr\0.9.0\vavr-0.9.0.jar;C:\Users\my laptop\.m2\repository\io\vavr\vavr-match\0.9.0\vavr-match-0.9.0.jar;C:\Users\my laptop\.m2\repository\javax\xml\bind\jaxb-api\2.2.12\jaxb-api-2.2.12.jar;C:\Users\my laptop\.m2\repository\com\sun\xml\bind\jaxb-core\2.3.0.1\jaxb-core-2.3.0.1.jar;C:\Users\my laptop\.m2\repository\com\sun\xml\bind\jaxb-impl\2.3.0.1\jaxb-impl-2.3.0.1.jar;C:\Users\my laptop\.m2\repository\javax\activation\activation\1.1.1\activation-1.1.1.jar;C:\Users\my laptop\.m2\repository\org\mockito\mockito-core\3.1.0\mockito-core-3.1.0.jar;C:\Users\my laptop\.m2\repository\net\serenity-bdd\serenity-report-resources\2.3.2\serenity-report-resources-2.3.2.jar;C:\Users\my laptop\.m2\repository\net\serenity-bdd\serenity-model\2.3.2\serenity-model-2.3.2.jar;C:\Users\my laptop\.m2\repository\commons-net\commons-net\3.6\commons-net-3.6.jar;C:\Users\my laptop\.m2\repository\org\apache\commons\commons-text\1.6\commons-text-1.6.jar;C:\Users\my laptop\.m2\repository\org\reflections\reflections\0.9.11\reflections-0.9.11.jar;C:\Users\my laptop\.m2\repository\org\javassist\javassist\3.21.0-GA\javassist-3.21.0-GA.jar;C:\Users\my laptop\.m2\repository\es\nitaur\markdown\txtmark\0.16\txtmark-0.16.jar;C:\Users\my laptop\.m2\repository\net\serenity-bdd\serenity-reports\2.3.2\serenity-reports-2.3.2.jar;C:\Users\my laptop\.m2\repository\net\serenity-bdd\serenity-stats\2.3.2\serenity-stats-2.3.2.jar;C:\Users\my laptop\.m2\repository\com\google\code\gson\gson\2.8.6\gson-2.8.6.jar;C:\Users\my laptop\.m2\repository\commons-io\commons-io\2.6\commons-io-2.6.jar;C:\Users\my laptop\.m2\repository\org\seleniumhq\selenium\selenium-server\3.141.59\selenium-server-3.141.59.jar;C:\Users\my laptop\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.59\selenium-firefox-driver-3.141.59.jar;C:\Users\my laptop\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.141.59\selenium-ie-driver-3.141.59.jar;C:\Users\my laptop\.m2\repository\com\beust\jcommander\1.72\jcommander-1.72.jar;C:\Users\my laptop\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\my laptop\.m2\repository\net\jcip\jcip-annotations\1.0\jcip-annotations-1.0.jar;C:\Users\my laptop\.m2\repository\org\seleniumhq\selenium\jetty-repacked\9.4.12.v20180830\jetty-repacked-9.4.12.v20180830.jar;C:\Users\my laptop\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar;C:\Users\my laptop\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar;C:\Users\my laptop\.m2\repository\javax\servlet\javax.servlet-api\3.1.0\javax.servlet-api-3.1.0.jar;C:\Users\my laptop\.m2\repository\org\seleniumhq\selenium\selenium-java\3.141.59\selenium-java-3.141.59.jar;C:\Users\my laptop\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.59\selenium-api-3.141.59.jar;C:\Users\my laptop\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.59\selenium-chrome-driver-3.141.59.jar;C:\Users\my laptop\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.141.59\selenium-edge-driver-3.141.59.jar;C:\Users\my laptop\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar;C:\Users\my laptop\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.141.59\selenium-safari-driver-3.141.59.jar;C:\Users\my laptop\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.141.59\selenium-opera-driver-3.141.59.jar;C:\Users\my laptop\.m2\repository\org\seleniumhq\selenium\selenium-support\3.141.59\selenium-support-3.141.59.jar;C:\Users\my laptop\.m2\repository\com\paulhammant\ngwebdriver\1.1.5\ngwebdriver-1.1.5.jar;C:\Users\my laptop\.m2\repository\com\assertthat\selenium-shutterbug\0.9.3\selenium-shutterbug-0.9.3.jar;C:\Users\my laptop\.m2\repository\org\projectlombok\lombok\1.18.8\lombok-1.18.8.jar;C:\Users\my laptop\.m2\repository\com\github\zafarkhaja\java-semver\0.9.0\java-semver-0.9.0.jar;C:\Users\my laptop\.m2\repository\com\codeborne\phantomjsdriver\1.4.4\phantomjsdriver-1.4.4.jar;C:\Users\my laptop\.m2\repository\org\seleniumhq\selenium\htmlunit-driver\2.37.0\htmlunit-driver-2.37.0.jar;C:\Users\my laptop\.m2\repository\org\springframework\spring-context-support\5.1.2.RELEASE\spring-context-support-5.1.2.RELEASE.jar;C:\Users\my laptop\.m2\repository\org\springframework\spring-beans\5.1.2.RELEASE\spring-beans-5.1.2.RELEASE.jar;C:\Users\my laptop\.m2\repository\org\springframework\spring-core\5.1.2.RELEASE\spring-core-5.1.2.RELEASE.jar;C:\Users\my laptop\.m2\repository\org\springframework\spring-jcl\5.1.2.RELEASE\spring-jcl-5.1.2.RELEASE.jar;C:\Users\my laptop\.m2\repository\org\codehaus\groovy\groovy\2.5.5\groovy-2.5.5.jar;C:\Users\my laptop\.m2\repository\net\sf\opencsv\opencsv\2.0\opencsv-2.0.jar;C:\Users\my laptop\.m2\repository\commons-beanutils\commons-beanutils-core\1.8.3\commons-beanutils-core-1.8.3.jar;C:\Users\my laptop\.m2\repository\joda-time\joda-time\2.7\joda-time-2.7.jar;C:\Users\my laptop\.m2\repository\com\thoughtworks\xstream\xstream\1.4.9\xstream-1.4.9.jar;C:\Users\my laptop\.m2\repository\xmlpull\xmlpull\1.1.3.1\xmlpull-1.1.3.1.jar;C:\Users\my laptop\.m2\repository\xpp3\xpp3_min\1.1.4c\xpp3_min-1.1.4c.jar;C:\Users\my laptop\.m2\repository\org\apache\commons\commons-lang3\3.8.1\commons-lang3-3.8.1.jar;C:\Users\my laptop\.m2\repository\commons-collections\commons-collections\3.2.2\commons-collections-3.2.2.jar;C:\Users\my laptop\.m2\repository\org\freemarker\freemarker\2.3.29\freemarker-2.3.29.jar;C:\Users\my laptop\.m2\repository\net\sourceforge\jexcelapi\jxl\2.6.12\jxl-2.6.12.jar;C:\Users\my laptop\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\my laptop\.m2\repository\org\hamcrest\hamcrest-library\1.3\hamcrest-library-1.3.jar;C:\Users\my laptop\.m2\repository\net\sourceforge\htmlunit\htmlunit\2.37.0\htmlunit-2.37.0.jar;C:\Users\my laptop\.m2\repository\net\sourceforge\htmlunit\htmlunit-core-js\2.37.0\htmlunit-core-js-2.37.0.jar;C:\Users\my laptop\.m2\repository\net\sourceforge\htmlunit\neko-htmlunit\2.37.0\neko-htmlunit-2.37.0.jar;C:\Users\my laptop\.m2\repository\xerces\xercesImpl\2.12.0\xercesImpl-2.12.0.jar;C:\Users\my laptop\.m2\repository\net\sourceforge\htmlunit\htmlunit-cssparser\1.5.0\htmlunit-cssparser-1.5.0.jar;C:\Users\my laptop\.m2\repository\org\brotli\dec\0.1.2\dec-0.1.2.jar;C:\Users\my laptop\.m2\repository\org\eclipse\jetty\websocket\websocket-client\9.4.26.v20200117\websocket-client-9.4.26.v20200117.jar;C:\Users\my laptop\.m2\repository\org\eclipse\jetty\jetty-client\9.4.26.v20200117\jetty-client-9.4.26.v20200117.jar;C:\Users\my laptop\.m2\repository\org\eclipse\jetty\jetty-http\9.4.26.v20200117\jetty-http-9.4.26.v20200117.jar;C:\Users\my laptop\.m2\repository\org\eclipse\jetty\jetty-xml\9.4.26.v20200117\jetty-xml-9.4.26.v20200117.jar;C:\Users\my laptop\.m2\repository\org\eclipse\jetty\jetty-util\9.4.26.v20200117\jetty-util-9.4.26.v20200117.jar;C:\Users\my laptop\.m2\repository\org\eclipse\jetty\jetty-io\9.4.26.v20200117\jetty-io-9.4.26.v20200117.jar;C:\Users\my laptop\.m2\repository\org\eclipse\jetty\websocket\websocket-common\9.4.26.v20200117\websocket-common-9.4.26.v20200117.jar;C:\Users\my laptop\.m2\repository\org\eclipse\jetty\websocket\websocket-api\9.4.26.v20200117\websocket-api-9.4.26.v20200117.jar;C:\Users\my laptop\.m2\repository\org\apache\httpcomponents\httpclient\4.5.5\httpclient-4.5.5.jar;C:\Users\my laptop\.m2\repository\org\apache\httpcomponents\httpcore\4.4.9\httpcore-4.4.9.jar;C:\Users\my laptop\.m2\repository\org\apache\httpcomponents\httpmime\4.5.5\httpmime-4.5.5.jar;C:\Users\my laptop\.m2\repository\org\fluentlenium\fluentlenium-core\0.10.2\fluentlenium-core-0.10.2.jar;C:\Users\my laptop\.m2\repository\com\jhlabs\filters\2.0.235\filters-2.0.235.jar;C:\Users\my laptop\.m2\repository\org\asciidoctor\asciidoctorj\1.5.6\asciidoctorj-1.5.6.jar;C:\Users\my laptop\.m2\repository\org\jruby\jruby-complete\1.7.26\jruby-complete-1.7.26.jar;C:\Users\my laptop\.m2\repository\org\imgscalr\imgscalr-lib\4.2\imgscalr-lib-4.2.jar;C:\Users\my laptop\.m2\repository\javax\el\javax.el-api\2.2.4\javax.el-api-2.2.4.jar;C:\Users\my laptop\.m2\repository\org\glassfish\web\javax.el\2.2.4\javax.el-2.2.4.jar;C:\Users\my laptop\.m2\repository\xalan\xalan\2.7.2\xalan-2.7.2.jar;C:\Users\my laptop\.m2\repository\xalan\serializer\2.7.2\serializer-2.7.2.jar;C:\Users\my laptop\.m2\repository\org\awaitility\awaitility\4.0.1\awaitility-4.0.1.jar;C:\Users\my laptop\.m2\repository\org\hamcrest\hamcrest\2.1\hamcrest-2.1.jar;C:\Users\my laptop\.m2\repository\com\typesafe\config\1.3.1\config-1.3.1.jar;C:\Users\my laptop\.m2\repository\org\jsoup\jsoup\1.10.3\jsoup-1.10.3.jar;C:\Users\my laptop\.m2\repository\com\google\jimfs\jimfs\1.1\jimfs-1.1.jar;C:\Users\my laptop\.m2\repository\com\vladsch\flexmark\flexmark-all\0.34.30\flexmark-all-0.34.30.jar;C:\Users\my laptop\.m2\repository\com\vladsch\flexmark\flexmark\0.34.30\flexmark-0.34.30.jar;C:\Users\my laptop\.m2\repository\com\vladsch\flexmark\flexmark-ext-abbreviation\0.34.30\flexmark-ext-abbreviation-0.34.30.jar;C:\Users\my laptop\.m2\repository\com\vladsch\flexmark\flexmark-ext-admonition\0.34.30\flexmark-ext-admonition-0.34.30.jar;C:\Users\my laptop\.m2\repository\com\vladsch\flexmark\flexmark-ext-anchorlink\0.34.30\flexmark-ext-anchorlink-0.34.30.jar;C:\Users\my laptop\.m2\repository\com\vladsch\flexmark\flexmark-ext-aside\0.34.30\flexmark-ext-aside-0.34.30.jar;C:\Users\my laptop\.m2\repository\com\vladsch\flexmark\flexmark-ext-attributes\0.34.30\flexmark-ext-attributes-0.34.30.jar;C:\Users\my laptop\.m2\repository\com\vladsch\flexmark\flexmark-ext-autolink\0.34.30\flexmark-ext-autolink-0.34.30.jar;C:\Users\my laptop\.m2\repository\org\nibor\autolink\autolink\0.6.0\autolink-0.6.0.jar;C:\Users\my laptop\.m2\repository\com\vladsch\flexmark\flexmark-ext-definition\0.34.30\flexmark-ext-definition-0.34.30.jar;C:\Users\my laptop\.m2\repository\com\vladsch\flexmark\flexmark-ext-emoji\0.34.30\flexmark-ext-emoji-0.34.30.jar;C:\Users\my laptop\.m2\repository\com\vladsch\flexmark\flexmark-ext-enumerated-reference\0.34.30\flexmark-ext-enumerated-reference-0.34.30.jar;C:\Users\my laptop\.m2\repository\com\vladsch\flexmark\flexmark-ext-escaped-character\0.34.30\flexmark-ext-escaped-character-0.34.30.jar;C:\Users\my laptop\.m2\repository\com\vladsch\flexmark\flexmark-ext-footnotes\0.34.30\flexmark-ext-footnotes-0.34.30.jar;C:\Users\my laptop\.m2\repository\com\vladsch\flexmark\flexmark-ext-gfm-issues\0.34.30\flexmark-ext-gfm-issues-0.34.30.jar;C:\Users\my laptop\.m2\repository\com\vladsch\flexmark\flexmark-ext-gfm-strikethrough\0.34.30\flexmark-ext-gfm-strikethrough-0.34.30.jar;C:\Users\my laptop\.m2\repository\com\vladsch\flexmark\flexmark-ext-gfm-tables\0.34.30\flexmark-ext-gfm-tables-0.34.30.jar;C:\Users\my laptop\.m2\repository\com\vladsch\flexmark\flexmark-ext-gfm-tasklist\0.34.30\flexmark-ext-gfm-tasklist-0.34.30.jar;C:\Users\my laptop\.m2\repository\com\vladsch\flexmark\flexmark-ext-gfm-users\0.34.30\flexmark-ext-gfm-users-0.34.30.jar;C:\Users\my laptop\.m2\repository\com\vladsch\flexmark\flexmark-ext-gitlab\0.34.30\flexmark-ext-gitlab-0.34.30.jar;C:\Users\my laptop\.m2\repository\com\vladsch\flexmark\flexmark-ext-jekyll-front-matter\0.34.30\flexmark-ext-jekyll-front-matter-0.34.30.jar;C:\Users\my laptop\.m2\repository\com\vladsch\flexmark\flexmark-ext-jekyll-tag\0.34.30\flexmark-ext-jekyll-tag-0.34.30.jar;C:\Users\my laptop\.m2\repository\com\vladsch\flexmark\flexmark-ext-media-tags\0.34.30\flexmark-ext-media-tags-0.34.30.jar;C:\Users\my laptop\.m2\repository\com\vladsch\flexmark\flexmark-test-util\0.34.30\flexmark-test-util-0.34.30.jar;C:\Users\my laptop\.m2\repository\com\vladsch\flexmark\flexmark-ext-ins\0.34.30\flexmark-ext-ins-0.34.30.jar;C:\Users\my laptop\.m2\repository\com\vladsch\flexmark\flexmark-ext-xwiki-macros\0.34.30\flexmark-ext-xwiki-macros-0.34.30.jar;C:\Users\my laptop\.m2\repository\com\vladsch\flexmark\flexmark-ext-superscript\0.34.30\flexmark-ext-superscript-0.34.30.jar;C:\Users\my laptop\.m2\repository\com\vladsch\flexmark\flexmark-ext-tables\0.34.30\flexmark-ext-tables-0.34.30.jar;C:\Users\my laptop\.m2\repository\com\vladsch\flexmark\flexmark-ext-toc\0.34.30\flexmark-ext-toc-0.34.30.jar;C:\Users\my laptop\.m2\repository\com\vladsch\flexmark\flexmark-ext-typographic\0.34.30\flexmark-ext-typographic-0.34.30.jar;C:\Users\my laptop\.m2\repository\com\vladsch\flexmark\flexmark-ext-wikilink\0.34.30\flexmark-ext-wikilink-0.34.30.jar;C:\Users\my laptop\.m2\repository\com\vladsch\flexmark\flexmark-ext-yaml-front-matter\0.34.30\flexmark-ext-yaml-front-matter-0.34.30.jar;C:\Users\my laptop\.m2\repository\com\vladsch\flexmark\flexmark-ext-youtube-embedded\0.34.30\flexmark-ext-youtube-embedded-0.34.30.jar;C:\Users\my laptop\.m2\repository\com\vladsch\flexmark\flexmark-formatter\0.34.30\flexmark-formatter-0.34.30.jar;C:\Users\my laptop\.m2\repository\com\vladsch\flexmark\flexmark-html-parser\0.34.30\flexmark-html-parser-0.34.30.jar;C:\Users\my laptop\.m2\repository\com\vladsch\flexmark\flexmark-jira-converter\0.34.30\flexmark-jira-converter-0.34.30.jar;C:\Users\my laptop\.m2\repository\com\vladsch\flexmark\flexmark-pdf-converter\0.34.30\flexmark-pdf-converter-0.34.30.jar;C:\Users\my laptop\.m2\repository\com\openhtmltopdf\openhtmltopdf-core\0.0.1-RC13\openhtmltopdf-core-0.0.1-RC13.jar;C:\Users\my laptop\.m2\repository\com\openhtmltopdf\openhtmltopdf-pdfbox\0.0.1-RC13\openhtmltopdf-pdfbox-0.0.1-RC13.jar;C:\Users\my laptop\.m2\repository\org\apache\pdfbox\pdfbox\2.0.8\pdfbox-2.0.8.jar;C:\Users\my laptop\.m2\repository\org\apache\pdfbox\fontbox\2.0.8\fontbox-2.0.8.jar;C:\Users\my laptop\.m2\repository\org\apache\pdfbox\xmpbox\2.0.8\xmpbox-2.0.8.jar;C:\Users\my laptop\.m2\repository\de\rototor\pdfbox\graphics2d\0.12\graphics2d-0.12.jar;C:\Users\my laptop\.m2\repository\com\openhtmltopdf\openhtmltopdf-rtl-support\0.0.1-RC13\openhtmltopdf-rtl-support-0.0.1-RC13.jar;C:\Users\my laptop\.m2\repository\com\ibm\icu\icu4j\59.1\icu4j-59.1.jar;C:\Users\my laptop\.m2\repository\com\openhtmltopdf\openhtmltopdf-jsoup-dom-converter\0.0.1-RC13\openhtmltopdf-jsoup-dom-converter-0.0.1-RC13.jar;C:\Users\my laptop\.m2\repository\com\vladsch\flexmark\flexmark-profile-pegdown\0.34.30\flexmark-profile-pegdown-0.34.30.jar;C:\Users\my laptop\.m2\repository\com\vladsch\flexmark\flexmark-util\0.34.30\flexmark-util-0.34.30.jar;C:\Users\my laptop\.m2\repository\com\vladsch\flexmark\flexmark-youtrack-converter\0.34.30\flexmark-youtrack-converter-0.34.30.jar;C:\Users\my laptop\.m2\repository\io\github\bonigarcia\webdrivermanager\4.1.0\webdrivermanager-4.1.0.jar;C:\Users\my laptop\.m2\repository\org\apache\httpcomponents\client5\httpclient5\5.0.1\httpclient5-5.0.1.jar;C:\Users\my laptop\.m2\repository\org\apache\httpcomponents\core5\httpcore5\5.0.1\httpcore5-5.0.1.jar;C:\Users\my laptop\.m2\repository\org\apache\httpcomponents\core5\httpcore5-h2\5.0.1\httpcore5-h2-5.0.1.jar;C:\Users\my laptop\.m2\repository\org\rauschig\jarchivelib\1.0.0\jarchivelib-1.0.0.jar;C:\Users\my laptop\.m2\repository\org\apache\commons\commons-compress\1.18\commons-compress-1.18.jar;C:\Users\my laptop\.m2\repository\net\serenity-bdd\serenity-screenplay\2.3.2\serenity-screenplay-2.3.2.jar;C:\Users\my laptop\.m2\repository\net\serenity-bdd\serenity-screenplay-webdriver\2.3.2\serenity-screenplay-webdriver-2.3.2.jar;C:\Users\my laptop\.m2\repository\net\serenity-bdd\serenity-ensure\2.3.2\serenity-ensure-2.3.2.jar;C:\Users\my laptop\.m2\repository\net\serenity-bdd\serenity-junit\2.3.2\serenity-junit-2.3.2.jar;C:\Users\my laptop\.m2\repository\org\jetbrains\kotlin\kotlin-stdlib\1.3.31\kotlin-stdlib-1.3.31.jar;C:\Users\my laptop\.m2\repository\org\jetbrains\kotlin\kotlin-stdlib-common\1.3.31\kotlin-stdlib-common-1.3.31.jar;C:\Users\my laptop\.m2\repository\org\jetbrains\annotations\13.0\annotations-13.0.jar;C:\Users\my laptop\.m2\repository\net\serenity-bdd\serenity-assertions\2.3.2\serenity-assertions-2.3.2.jar;C:\Users\my laptop\.m2\repository\net\serenity-bdd\serenity-screenplay-rest\2.3.2\serenity-screenplay-rest-2.3.2.jar;C:\Users\my laptop\.m2\repository\net\serenity-bdd\serenity-rest-assured\2.3.2\serenity-rest-assured-2.3.2.jar;C:\Users\my laptop\.m2\repository\io\rest-assured\rest-assured\3.3.0\rest-assured-3.3.0.jar;C:\Users\my laptop\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\my laptop\.m2\repository\io\rest-assured\json-path\3.3.0\json-path-3.3.0.jar;C:\Users\my laptop\.m2\repository\io\rest-assured\rest-assured-common\3.3.0\rest-assured-common-3.3.0.jar;C:\Users\my laptop\.m2\repository\io\rest-assured\xml-path\3.3.0\xml-path-3.3.0.jar;C:\Users\my laptop\.m2\repository\com\sun\xml\bind\jaxb-osgi\2.2.10\jaxb-osgi-2.2.10.jar;C:\Users\my laptop\.m2\repository\org\apache\sling\org.apache.sling.javax.activation\0.1.0\org.apache.sling.javax.activation-0.1.0.jar;C:\Users\my laptop\.m2\repository\org\codehaus\groovy\groovy-xml\2.5.5\groovy-xml-2.5.5.jar;C:\Users\my laptop\.m2\repository\org\codehaus\groovy\groovy-json\2.5.5\groovy-json-2.5.5.jar;C:\Users\my laptop\.m2\repository\net\serenity-bdd\serenity-cucumber6\2.3.2\serenity-cucumber6-2.3.2.jar;C:\Users\my laptop\.m2\repository\io\cucumber\cucumber-junit\6.6.0\cucumber-junit-6.6.0.jar;C:\Users\my laptop\.m2\repository\io\cucumber\datatable-matchers\3.4.0\datatable-matchers-3.4.0.jar;C:\Users\my laptop\.m2\repository\org\apache\commons\commons-csv\1.5\commons-csv-1.5.jar;C:\Users\my laptop\.m2\repository\junit\junit\4.12\junit-4.12.jar;C:\Users\my laptop\.m2\repository\org\slf4j\slf4j-simple\1.7.7\slf4j-simple-1.7.7.jar;C:\Users\my laptop\.m2\repository\org\junit\platform\junit-platform-launcher\1.5.2\junit-platform-launcher-1.5.2.jar;C:\Users\my laptop\.m2\repository\org\apiguardian\apiguardian-api\1.1.0\apiguardian-api-1.1.0.jar;C:\Users\my laptop\.m2\repository\org\junit\platform\junit-platform-engine\1.5.2\junit-platform-engine-1.5.2.jar;C:\Users\my laptop\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.5.2\junit-jupiter-engine-5.5.2.jar;C:\Users\my laptop\.m2\repository\org\junit\vintage\junit-vintage-engine\5.5.2\junit-vintage-engine-5.5.2.jar;C:\Users\my laptop\.m2\repository\org\assertj\assertj-core\3.13.2\assertj-core-3.13.2.jar;C:\Users\my laptop\.m2\repository\io\appium\java-client\7.6.0\java-client-7.6.0.jar;C:\Users\my laptop\.m2\repository\cglib\cglib\3.3.0\cglib-3.3.0.jar;C:\Users\my laptop\.m2\repository\commons-validator\commons-validator\1.7\commons-validator-1.7.jar;C:\Users\my laptop\.m2\repository\commons-beanutils\commons-beanutils\1.9.4\commons-beanutils-1.9.4.jar;C:\Users\my laptop\.m2\repository\commons-digester\commons-digester\2.1\commons-digester-2.1.jar;C:\Users\my laptop\.m2\repository\org\springframework\spring-context\5.3.10\spring-context-5.3.10.jar;C:\Users\my laptop\.m2\repository\org\springframework\spring-aop\5.3.10\spring-aop-5.3.10.jar;C:\Users\my laptop\.m2\repository\org\springframework\spring-expression\5.3.10\spring-expression-5.3.10.jar;C:\Users\my laptop\.m2\repository\org\aspectj\aspectjweaver\1.9.7\aspectjweaver-1.9.7.jar;C:\Users\my laptop\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.5.2\junit-jupiter-api-5.5.2.jar;C:\Users\my laptop\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\my laptop\.m2\repository\org\junit\platform\junit-platform-commons\1.5.2\junit-platform-commons-1.5.2.jar;C:\Users\my laptop\.m2\repository\org\yaml\snakeyaml\1.29\snakeyaml-1.29.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\my laptop"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_202\jre"/>
+    <property name="basedir" value="C:\Users\my laptop\Documents\NetBeansProjects\mobile-automation"/>
+    <property name="file.separator" value="\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="C:\Users\my laptop\AppData\Local\Temp\surefire8381510932217711998\surefirebooter7210551085287413262.jar"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_202\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_202\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_202\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_202\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_202\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_202\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_202\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_202\jre\classes"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="1.8.0_202-b08"/>
+    <property name="user.name" value="my laptop"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_202\jre\lib\endorsed"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\my laptop\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\MYLAPT~1\AppData\Local\Temp\"/>
+    <property name="java.version" value="1.8.0_202"/>
+    <property name="user.dir" value="C:\Users\my laptop\Documents\NetBeansProjects\mobile-automation"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_202\jre\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\ProgramData\Oracle\Java\javapath;C:\Program Files\Python39\Scripts\;C:\Program Files\Python39\;C:\Program Files (x86)\Common Files\Intel\Shared Files\cpp\bin\Intel64;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\Microsoft SQL Server\100\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\100\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\100\Tools\Binn\VSShell\Common7\IDE\;C:\Program Files\Microsoft\Web Platform Installer\;C:\Program Files (x86)\Microsoft ASP.NET\ASP.NET Web Pages\v1.0\;C:\xampp\php;C:\ProgramData\chocolatey\bin;C:\Program Files\Git\cmd;C:\Program Files\Java\jdk1.8.0_202\bin;C:\Program Files\nodejs\;C:\Users\my laptop\AppData\Local\Android\Sdk\;C:\Program Files\Java\jdk1.8.0_202;E:\SOFTWARE\flutter\bin;C:\Users\my laptop\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\my laptop\AppData\Local\Microsoft\WindowsApps;C:\Program Files\heroku\bin;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2021.3.3\bin;;C:\Program Files\Java\jdk1.8.0_202\bin;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2021.3.3\plugins\maven\lib\maven3\bin;C:\Users\my laptop\AppData\Roaming\npm;C:\Program Files\Java\jdk1.8.0_202\bin;C:\Users\my laptop\AppData\Local\Android\Sdk;;."/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="25.202-b08"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_202\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="52.0"/>
+  </properties>
+  <testcase name="Adding two numbers #1" classname="Calculated Numbers" time="37.333">
+    <system-out><![CDATA[
+Scenario Outline: Adding two numbers &amp#27;[90m# src/test/resources/features/calculatedNumbers.feature:11&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mI am on calculator page&amp#27;[0m      &amp#27;[90m# com.example.steps.CalculateStepDefinitions.iAmOnCalculatorPage()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mI click &amp#27;[0m&amp#27;[32m&amp#27;[1m"1"&amp#27;[0m                   &amp#27;[90m# com.example.steps.CalculateStepDefinitions.iClick(java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mI click addition symbol&amp#27;[0m        &amp#27;[90m# com.example.steps.CalculateStepDefinitions.iClickAdditionSymbol()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mI click &amp#27;[0m&amp#27;[32m&amp#27;[1m"2"&amp#27;[0m                    &amp#27;[90m# com.example.steps.CalculateStepDefinitions.iClick(java.lang.String)&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mI get the result is &amp#27;[0m&amp#27;[32m&amp#27;[1m"3"&amp#27;[0m       &amp#27;[90m# com.example.steps.CalculateStepDefinitions.iGetTheResultIs(java.lang.String)&amp#27;[0m
+]]></system-out>
+    <system-err><![CDATA[[main] INFO io.cucumber.core.plugin.SerenityReporter - Running feature from file:///C:/Users/my%20laptop/Documents/NetBeansProjects/mobile-automation/src/test/resources/features/calculatedNumbers.feature
+[main] WARN io.cucumber.core.plugin.SerenityReporter - Feature from file:///C:/Users/my%20laptop/Documents/NetBeansProjects/mobile-automation/src/test/resources/features/calculatedNumbers.feature is not under the 'features' directory. Requirements report will not be correctly generated!
+[main] INFO  - 
+
+-------------------------------------------------------------------------------------
+     _______. _______ .______       _______ .__   __.  __  .___________.____    ____ 
+    /       ||   ____||   _  \     |   ____||  \ |  | |  | |           |\   \  /   / 
+   |   (----`|  |__   |  |_)  |    |  |__   |   \|  | |  | `---|  |----` \   \/   /  
+    \   \    |   __|  |      /     |   __|  |  . `  | |  |     |  |       \_    _/   
+.----)   |   |  |____ |  |\  \----.|  |____ |  |\   | |  |     |  |         |  |     
+|_______/    |_______|| _| `._____||_______||__| \__| |__|     |__|         |__|    
+                                                                                     
+ News and tutorials at http://www.serenity-bdd.info                                  
+ Documentation at https://wakaleo.gitbooks.io/the-serenity-book/content/             
+ Join the Serenity Community on Gitter: https://gitter.im/serenity-bdd/serenity-core 
+ Serenity BDD Support and Training at http://serenity-bdd.info/#/trainingandsupport  
+-------------------------------------------------------------------------------------
+
+[main] INFO  - Test Suite Started: Calculated Numbers
+[main] INFO io.cucumber.core.plugin.SerenityReporter - Running feature from file:///C:/Users/my%20laptop/Documents/NetBeansProjects/mobile-automation/src/test/resources/features/history.feature
+[main] WARN io.cucumber.core.plugin.SerenityReporter - Feature from file:///C:/Users/my%20laptop/Documents/NetBeansProjects/mobile-automation/src/test/resources/features/history.feature is not under the 'features' directory. Requirements report will not be correctly generated!
+[main] INFO  - Test Suite Started: History
+[main] INFO io.cucumber.core.plugin.SerenityReporter - Running feature from file:///C:/Users/my%20laptop/Documents/NetBeansProjects/mobile-automation/src/test/resources/features/calculatedNumbers.feature
+[main] WARN io.cucumber.core.plugin.SerenityReporter - Feature from file:///C:/Users/my%20laptop/Documents/NetBeansProjects/mobile-automation/src/test/resources/features/calculatedNumbers.feature is not under the 'features' directory. Requirements report will not be correctly generated!
+[main] INFO  - 
+ _____ _____ ____ _____   ____ _____  _    ____ _____ _____ ____  
+|_   _| ____/ ___|_   _| / ___|_   _|/ \  |  _ \_   _| ____|  _ \ 
+  | | |  _| \___ \ | |   \___ \ | | / _ \ | |_) || | |  _| | | | |
+  | | | |___ ___) || |    ___) || |/ ___ \|  _ < | | | |___| |_| |
+  |_| |_____|____/ |_|   |____/ |_/_/   \_\_| \_\|_| |_____|____/ 
+
+Adding two numbers(calculated-numbers;adding-two-numbers)
+-------------------------------------------------------------------
+Apr 17, 2022 4:39:44 AM io.appium.java_client.remote.AppiumCommandExecutor$1 lambda$0
+INFO: Detected dialect: W3C
+[main] INFO  - 
+        __    _____ _____ ____ _____   ____   _    ____  ____  _____ ____  
+  _     \ \  |_   _| ____/ ___|_   _| |  _ \ / \  / ___|/ ___|| ____|  _ \ 
+ (_)_____| |   | | |  _| \___ \ | |   | |_) / _ \ \___ \\___ \|  _| | | | |
+  _|_____| |   | | | |___ ___) || |   |  __/ ___ \ ___) |___) | |___| |_| |
+ (_)     | |   |_| |_____|____/ |_|   |_| /_/   \_\____/|____/|_____|____/ 
+        /_/                                                                
+
+Adding two numbers
+----------------------------------------------------------------------------
+]]></system-err>
+  </testcase>
+  <testcase name="Adding two numbers #2" classname="Calculated Numbers" time="36.632">
+    <system-out><![CDATA[
+Scenario Outline: Adding two numbers &amp#27;[90m# src/test/resources/features/calculatedNumbers.feature:12&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mI am on calculator page&amp#27;[0m      &amp#27;[90m# com.example.steps.CalculateStepDefinitions.iAmOnCalculatorPage()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mI click &amp#27;[0m&amp#27;[32m&amp#27;[1m"5"&amp#27;[0m                   &amp#27;[90m# com.example.steps.CalculateStepDefinitions.iClick(java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mI click addition symbol&amp#27;[0m        &amp#27;[90m# com.example.steps.CalculateStepDefinitions.iClickAdditionSymbol()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mI click &amp#27;[0m&amp#27;[32m&amp#27;[1m"10"&amp#27;[0m                   &amp#27;[90m# com.example.steps.CalculateStepDefinitions.iClick(java.lang.String)&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mI get the result is &amp#27;[0m&amp#27;[32m&amp#27;[1m"15"&amp#27;[0m      &amp#27;[90m# com.example.steps.CalculateStepDefinitions.iGetTheResultIs(java.lang.String)&amp#27;[0m
+]]></system-out>
+    <system-err><![CDATA[[main] INFO io.cucumber.core.plugin.SerenityReporter - Running feature from file:///C:/Users/my%20laptop/Documents/NetBeansProjects/mobile-automation/src/test/resources/features/calculatedNumbers.feature
+[main] WARN io.cucumber.core.plugin.SerenityReporter - Feature from file:///C:/Users/my%20laptop/Documents/NetBeansProjects/mobile-automation/src/test/resources/features/calculatedNumbers.feature is not under the 'features' directory. Requirements report will not be correctly generated!
+Apr 17, 2022 4:40:20 AM io.appium.java_client.remote.AppiumCommandExecutor$1 lambda$0
+INFO: Detected dialect: W3C
+[main] INFO  - 
+        __    _____ _____ ____ _____   ____   _    ____  ____  _____ ____  
+  _     \ \  |_   _| ____/ ___|_   _| |  _ \ / \  / ___|/ ___|| ____|  _ \ 
+ (_)_____| |   | | |  _| \___ \ | |   | |_) / _ \ \___ \\___ \|  _| | | | |
+  _|_____| |   | | | |___ ___) || |   |  __/ ___ \ ___) |___) | |___| |_| |
+ (_)     | |   |_| |_____|____/ |_|   |_| /_/   \_\____/|____/|_____|____/ 
+        /_/                                                                
+
+Adding two numbers
+----------------------------------------------------------------------------
+]]></system-err>
+  </testcase>
+  <testcase name="Adding two numbers #3" classname="Calculated Numbers" time="40.876">
+    <system-out><![CDATA[
+Scenario Outline: Adding two numbers &amp#27;[90m# src/test/resources/features/calculatedNumbers.feature:13&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mI am on calculator page&amp#27;[0m      &amp#27;[90m# com.example.steps.CalculateStepDefinitions.iAmOnCalculatorPage()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mI click &amp#27;[0m&amp#27;[32m&amp#27;[1m"25"&amp#27;[0m                  &amp#27;[90m# com.example.steps.CalculateStepDefinitions.iClick(java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mI click addition symbol&amp#27;[0m        &amp#27;[90m# com.example.steps.CalculateStepDefinitions.iClickAdditionSymbol()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mI click &amp#27;[0m&amp#27;[32m&amp#27;[1m"100"&amp#27;[0m                  &amp#27;[90m# com.example.steps.CalculateStepDefinitions.iClick(java.lang.String)&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mI get the result is &amp#27;[0m&amp#27;[32m&amp#27;[1m"125"&amp#27;[0m     &amp#27;[90m# com.example.steps.CalculateStepDefinitions.iGetTheResultIs(java.lang.String)&amp#27;[0m
+]]></system-out>
+    <system-err><![CDATA[[main] INFO io.cucumber.core.plugin.SerenityReporter - Running feature from file:///C:/Users/my%20laptop/Documents/NetBeansProjects/mobile-automation/src/test/resources/features/calculatedNumbers.feature
+[main] WARN io.cucumber.core.plugin.SerenityReporter - Feature from file:///C:/Users/my%20laptop/Documents/NetBeansProjects/mobile-automation/src/test/resources/features/calculatedNumbers.feature is not under the 'features' directory. Requirements report will not be correctly generated!
+Apr 17, 2022 4:40:58 AM io.appium.java_client.remote.AppiumCommandExecutor$1 lambda$0
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="Substracting two numbers #1" classname="Calculated Numbers" time="36.398">
+    <system-out><![CDATA[
+Scenario Outline: Substracting two numbers &amp#27;[90m# src/test/resources/features/calculatedNumbers.feature:23&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mI am on calculator page&amp#27;[0m            &amp#27;[90m# com.example.steps.CalculateStepDefinitions.iAmOnCalculatorPage()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mI click &amp#27;[0m&amp#27;[32m&amp#27;[1m"2"&amp#27;[0m                         &amp#27;[90m# com.example.steps.CalculateStepDefinitions.iClick(java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mI click substract symbol&amp#27;[0m             &amp#27;[90m# com.example.steps.CalculateStepDefinitions.iClickSubstractSymbol()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mI click &amp#27;[0m&amp#27;[32m&amp#27;[1m"1"&amp#27;[0m                          &amp#27;[90m# com.example.steps.CalculateStepDefinitions.iClick(java.lang.String)&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mI get the result is &amp#27;[0m&amp#27;[32m&amp#27;[1m"1"&amp#27;[0m             &amp#27;[90m# com.example.steps.CalculateStepDefinitions.iGetTheResultIs(java.lang.String)&amp#27;[0m
+]]></system-out>
+    <system-err><![CDATA[[main] INFO io.cucumber.core.plugin.SerenityReporter - Running feature from file:///C:/Users/my%20laptop/Documents/NetBeansProjects/mobile-automation/src/test/resources/features/calculatedNumbers.feature
+[main] WARN io.cucumber.core.plugin.SerenityReporter - Feature from file:///C:/Users/my%20laptop/Documents/NetBeansProjects/mobile-automation/src/test/resources/features/calculatedNumbers.feature is not under the 'features' directory. Requirements report will not be correctly generated!
+[main] INFO  - 
+ _____ _____ ____ _____   ____ _____  _    ____ _____ _____ ____  
+|_   _| ____/ ___|_   _| / ___|_   _|/ \  |  _ \_   _| ____|  _ \ 
+  | | |  _| \___ \ | |   \___ \ | | / _ \ | |_) || | |  _| | | | |
+  | | | |___ ___) || |    ___) || |/ ___ \|  _ < | | | |___| |_| |
+  |_| |_____|____/ |_|   |____/ |_/_/   \_\_| \_\|_| |_____|____/ 
+
+Substracting two numbers(calculated-numbers;substracting-two-numbers)
+-------------------------------------------------------------------
+Apr 17, 2022 4:41:38 AM io.appium.java_client.remote.AppiumCommandExecutor$1 lambda$0
+INFO: Detected dialect: W3C
+[main] INFO  - 
+        __    _____ _____ ____ _____   ____   _    ____  ____  _____ ____  
+  _     \ \  |_   _| ____/ ___|_   _| |  _ \ / \  / ___|/ ___|| ____|  _ \ 
+ (_)_____| |   | | |  _| \___ \ | |   | |_) / _ \ \___ \\___ \|  _| | | | |
+  _|_____| |   | | | |___ ___) || |   |  __/ ___ \ ___) |___) | |___| |_| |
+ (_)     | |   |_| |_____|____/ |_|   |_| /_/   \_\____/|____/|_____|____/ 
+        /_/                                                                
+
+Substracting two numbers
+----------------------------------------------------------------------------
+]]></system-err>
+  </testcase>
+  <testcase name="Substracting two numbers #2" classname="Calculated Numbers" time="36.644">
+    <system-out><![CDATA[
+Scenario Outline: Substracting two numbers &amp#27;[90m# src/test/resources/features/calculatedNumbers.feature:24&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mI am on calculator page&amp#27;[0m            &amp#27;[90m# com.example.steps.CalculateStepDefinitions.iAmOnCalculatorPage()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mI click &amp#27;[0m&amp#27;[32m&amp#27;[1m"10"&amp#27;[0m                        &amp#27;[90m# com.example.steps.CalculateStepDefinitions.iClick(java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mI click substract symbol&amp#27;[0m             &amp#27;[90m# com.example.steps.CalculateStepDefinitions.iClickSubstractSymbol()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mI click &amp#27;[0m&amp#27;[32m&amp#27;[1m"5"&amp#27;[0m                          &amp#27;[90m# com.example.steps.CalculateStepDefinitions.iClick(java.lang.String)&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mI get the result is &amp#27;[0m&amp#27;[32m&amp#27;[1m"5"&amp#27;[0m             &amp#27;[90m# com.example.steps.CalculateStepDefinitions.iGetTheResultIs(java.lang.String)&amp#27;[0m
+]]></system-out>
+    <system-err><![CDATA[[main] INFO io.cucumber.core.plugin.SerenityReporter - Running feature from file:///C:/Users/my%20laptop/Documents/NetBeansProjects/mobile-automation/src/test/resources/features/calculatedNumbers.feature
+[main] WARN io.cucumber.core.plugin.SerenityReporter - Feature from file:///C:/Users/my%20laptop/Documents/NetBeansProjects/mobile-automation/src/test/resources/features/calculatedNumbers.feature is not under the 'features' directory. Requirements report will not be correctly generated!
+Apr 17, 2022 4:42:14 AM io.appium.java_client.remote.AppiumCommandExecutor$1 lambda$0
+INFO: Detected dialect: W3C
+[main] INFO  - 
+        __    _____ _____ ____ _____   ____   _    ____  ____  _____ ____  
+  _     \ \  |_   _| ____/ ___|_   _| |  _ \ / \  / ___|/ ___|| ____|  _ \ 
+ (_)_____| |   | | |  _| \___ \ | |   | |_) / _ \ \___ \\___ \|  _| | | | |
+  _|_____| |   | | | |___ ___) || |   |  __/ ___ \ ___) |___) | |___| |_| |
+ (_)     | |   |_| |_____|____/ |_|   |_| /_/   \_\____/|____/|_____|____/ 
+        /_/                                                                
+
+Substracting two numbers
+----------------------------------------------------------------------------
+]]></system-err>
+  </testcase>
+  <testcase name="Substracting two numbers #3" classname="Calculated Numbers" time="38.448">
+    <system-out><![CDATA[
+Scenario Outline: Substracting two numbers &amp#27;[90m# src/test/resources/features/calculatedNumbers.feature:25&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mI am on calculator page&amp#27;[0m            &amp#27;[90m# com.example.steps.CalculateStepDefinitions.iAmOnCalculatorPage()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mI click &amp#27;[0m&amp#27;[32m&amp#27;[1m"100"&amp#27;[0m                       &amp#27;[90m# com.example.steps.CalculateStepDefinitions.iClick(java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mI click substract symbol&amp#27;[0m             &amp#27;[90m# com.example.steps.CalculateStepDefinitions.iClickSubstractSymbol()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mI click &amp#27;[0m&amp#27;[32m&amp#27;[1m"25"&amp#27;[0m                         &amp#27;[90m# com.example.steps.CalculateStepDefinitions.iClick(java.lang.String)&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mI get the result is &amp#27;[0m&amp#27;[32m&amp#27;[1m"75"&amp#27;[0m            &amp#27;[90m# com.example.steps.CalculateStepDefinitions.iGetTheResultIs(java.lang.String)&amp#27;[0m
+]]></system-out>
+    <system-err><![CDATA[[main] INFO io.cucumber.core.plugin.SerenityReporter - Running feature from file:///C:/Users/my%20laptop/Documents/NetBeansProjects/mobile-automation/src/test/resources/features/calculatedNumbers.feature
+[main] WARN io.cucumber.core.plugin.SerenityReporter - Feature from file:///C:/Users/my%20laptop/Documents/NetBeansProjects/mobile-automation/src/test/resources/features/calculatedNumbers.feature is not under the 'features' directory. Requirements report will not be correctly generated!
+Apr 17, 2022 4:42:51 AM io.appium.java_client.remote.AppiumCommandExecutor$1 lambda$0
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="Multiplying two numbers #1" classname="Calculated Numbers" time="35.857">
+    <system-out><![CDATA[
+Scenario Outline: Multiplying two numbers &amp#27;[90m# src/test/resources/features/calculatedNumbers.feature:35&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mI am on calculator page&amp#27;[0m           &amp#27;[90m# com.example.steps.CalculateStepDefinitions.iAmOnCalculatorPage()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mI click &amp#27;[0m&amp#27;[32m&amp#27;[1m"1"&amp#27;[0m                        &amp#27;[90m# com.example.steps.CalculateStepDefinitions.iClick(java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mI click multiply symbol&amp#27;[0m             &amp#27;[90m# com.example.steps.CalculateStepDefinitions.iClickMultiplySymbol()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mI click &amp#27;[0m&amp#27;[32m&amp#27;[1m"2"&amp#27;[0m                         &amp#27;[90m# com.example.steps.CalculateStepDefinitions.iClick(java.lang.String)&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mI get the result is &amp#27;[0m&amp#27;[32m&amp#27;[1m"2"&amp#27;[0m            &amp#27;[90m# com.example.steps.CalculateStepDefinitions.iGetTheResultIs(java.lang.String)&amp#27;[0m
+]]></system-out>
+    <system-err><![CDATA[[main] INFO io.cucumber.core.plugin.SerenityReporter - Running feature from file:///C:/Users/my%20laptop/Documents/NetBeansProjects/mobile-automation/src/test/resources/features/calculatedNumbers.feature
+[main] WARN io.cucumber.core.plugin.SerenityReporter - Feature from file:///C:/Users/my%20laptop/Documents/NetBeansProjects/mobile-automation/src/test/resources/features/calculatedNumbers.feature is not under the 'features' directory. Requirements report will not be correctly generated!
+[main] INFO  - 
+ _____ _____ ____ _____   ____ _____  _    ____ _____ _____ ____  
+|_   _| ____/ ___|_   _| / ___|_   _|/ \  |  _ \_   _| ____|  _ \ 
+  | | |  _| \___ \ | |   \___ \ | | / _ \ | |_) || | |  _| | | | |
+  | | | |___ ___) || |    ___) || |/ ___ \|  _ < | | | |___| |_| |
+  |_| |_____|____/ |_|   |____/ |_/_/   \_\_| \_\|_| |_____|____/ 
+
+Multiplying two numbers(calculated-numbers;multiplying-two-numbers)
+-------------------------------------------------------------------
+Apr 17, 2022 4:43:29 AM io.appium.java_client.remote.AppiumCommandExecutor$1 lambda$0
+INFO: Detected dialect: W3C
+[main] INFO  - 
+        __    _____ _____ ____ _____   ____   _    ____  ____  _____ ____  
+  _     \ \  |_   _| ____/ ___|_   _| |  _ \ / \  / ___|/ ___|| ____|  _ \ 
+ (_)_____| |   | | |  _| \___ \ | |   | |_) / _ \ \___ \\___ \|  _| | | | |
+  _|_____| |   | | | |___ ___) || |   |  __/ ___ \ ___) |___) | |___| |_| |
+ (_)     | |   |_| |_____|____/ |_|   |_| /_/   \_\____/|____/|_____|____/ 
+        /_/                                                                
+
+Multiplying two numbers
+----------------------------------------------------------------------------
+]]></system-err>
+  </testcase>
+  <testcase name="Multiplying two numbers #2" classname="Calculated Numbers" time="68.342">
+    <error type="org.openqa.selenium.TimeoutException"><![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: //android.view.View[@content-desc="50"] (tried for 30 second(s) with 1000 milliseconds interval)
+Caused by: org.openqa.selenium.NoSuchElementException: 
+An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-T1G9LT0', ip: '192.168.174.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {app: C:\Users\my laptop\Document..., appPackage: com.example.calculator, automationName: UiAutomator2, databaseEnabled: false, desired: {app: C:\Users\my laptop\Document..., automationName: UiAutomator2, platformName: android, platformVersion: 7.0}, deviceApiLevel: 24, deviceManufacturer: Google, deviceModel: Android SDK built for x86, deviceName: emulator-5554, deviceScreenDensity: 420, deviceScreenSize: 1080x1920, deviceUDID: emulator-5554, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, pixelRatio: 2.625, platform: LINUX, platformName: Android, platformVersion: 7.0, statBarHeight: 63, takesScreenshot: true, viewportRect: {height: 1731, left: 0, top: 63, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: d35fba22-7687-4f3e-bbd3-4641b9b2334b
+*** Element info: {Using=xpath, value=//android.view.View[@content-desc="50"]}
+]]></error>
+    <system-out><![CDATA[
+Scenario Outline: Multiplying two numbers &amp#27;[90m# src/test/resources/features/calculatedNumbers.feature:36&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mI am on calculator page&amp#27;[0m           &amp#27;[90m# com.example.steps.CalculateStepDefinitions.iAmOnCalculatorPage()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mI click &amp#27;[0m&amp#27;[32m&amp#27;[1m"5"&amp#27;[0m                        &amp#27;[90m# com.example.steps.CalculateStepDefinitions.iClick(java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mI click multiply symbol&amp#27;[0m             &amp#27;[90m# com.example.steps.CalculateStepDefinitions.iClickMultiplySymbol()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mI click &amp#27;[0m&amp#27;[32m&amp#27;[1m"10"&amp#27;[0m                        &amp#27;[90m# com.example.steps.CalculateStepDefinitions.iClick(java.lang.String)&amp#27;[0m
+  &amp#27;[31mThen &amp#27;[0m&amp#27;[31mI get the result is &amp#27;[0m&amp#27;[31m&amp#27;[1m"50"&amp#27;[0m           &amp#27;[90m# com.example.steps.CalculateStepDefinitions.iGetTheResultIs(java.lang.String)&amp#27;[0m
+      &amp#27;[31morg.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: //android.view.View[@content-desc="50"] (tried for 30 second(s) with 1000 milliseconds interval)
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:95)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)
+	at com.example.app.base.BasePageObject.find(BasePageObject.java:28)
+	at com.example.app.base.BasePageObject.isDisplayed(BasePageObject.java:44)
+	at com.example.app.pages.CalculatorPage.verifyResultDisplayed(CalculatorPage.java:37)
+	at com.example.steps.CalculateStepDefinitions.iGetTheResultIs(CalculateStepDefinitions.java:30)
+	at âœ½.I get the result is "50"(file:///C:/Users/my%20laptop/Documents/NetBeansProjects/mobile-automation/src/test/resources/features/calculatedNumbers.feature:32)
+Caused by: org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-T1G9LT0', ip: '192.168.174.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {app: C:\Users\my laptop\Document..., appPackage: com.example.calculator, automationName: UiAutomator2, databaseEnabled: false, desired: {app: C:\Users\my laptop\Document..., automationName: UiAutomator2, platformName: android, platformVersion: 7.0}, deviceApiLevel: 24, deviceManufacturer: Google, deviceModel: Android SDK built for x86, deviceName: emulator-5554, deviceScreenDensity: 420, deviceScreenSize: 1080x1920, deviceUDID: emulator-5554, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, pixelRatio: 2.625, platform: LINUX, platformName: Android, platformVersion: 7.0, statBarHeight: 63, takesScreenshot: true, viewportRect: {height: 1731, left: 0, top: 63, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: d35fba22-7687-4f3e-bbd3-4641b9b2334b
+*** Element info: {Using=xpath, value=//android.view.View[@content-desc="50"]}
+	at sun.reflect.GeneratedConstructorAccessor13.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:250)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:41)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:61)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElementByXPath(DefaultGenericMobileDriver.java:151)
+	at io.appium.java_client.AppiumDriver.findElementByXPath(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElementByXPath(AndroidDriver.java:1)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:57)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:205)
+	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:201)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:249)
+	at com.example.app.base.BasePageObject.find(BasePageObject.java:28)
+	at com.example.app.base.BasePageObject.isDisplayed(BasePageObject.java:44)
+	at com.example.app.pages.CalculatorPage.verifyResultDisplayed(CalculatorPage.java:37)
+	at com.example.steps.CalculateStepDefinitions.iGetTheResultIs(CalculateStepDefinitions.java:30)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at io.cucumber.java.Invoker.doInvoke(Invoker.java:66)
+	at io.cucumber.java.Invoker.invoke(Invoker.java:24)
+	at io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:47)
+	at io.cucumber.java.JavaStepDefinition.execute(JavaStepDefinition.java:29)
+	at io.cucumber.core.runner.CoreStepDefinition.execute(CoreStepDefinition.java:66)
+	at io.cucumber.core.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:63)
+	at io.cucumber.core.runner.TestStep.executeStep(TestStep.java:92)
+	at io.cucumber.core.runner.TestStep.run(TestStep.java:63)
+	at io.cucumber.core.runner.PickleStepTestStep.run(PickleStepTestStep.java:49)
+	at io.cucumber.core.runner.TestCase.run(TestCase.java:99)
+	at io.cucumber.core.runner.Runner.runPickle(Runner.java:71)
+	at io.cucumber.junit.PickleRunners$NoStepDescriptions.run(PickleRunners.java:151)
+	at io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:135)
+	at io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:27)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at io.cucumber.junit.CucumberSerenityRunner.runChild(CucumberSerenityRunner.java:234)
+	at io.cucumber.junit.CucumberSerenityRunner.runChild(CucumberSerenityRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at io.cucumber.junit.CucumberSerenityRunner$RunCucumber.evaluate(CucumberSerenityRunner.java:262)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:115)
+	at org.junit.vintage.engine.execution.RunnerExecutor.execute(RunnerExecutor.java:40)
+	at java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:184)
+	at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193)
+	at java.util.Iterator.forEachRemaining(Iterator.java:116)
+	at java.util.Spliterators$IteratorSpliterator.forEachRemaining(Spliterators.java:1801)
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:481)
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:471)
+	at java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:151)
+	at java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:174)
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:418)
+	at org.junit.vintage.engine.VintageTestEngine.executeAllChildren(VintageTestEngine.java:80)
+	at org.junit.vintage.engine.VintageTestEngine.execute(VintageTestEngine.java:71)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:229)
+	at org.junit.platform.launcher.core.DefaultLauncher.lambda$execute$6(DefaultLauncher.java:197)
+	at org.junit.platform.launcher.core.DefaultLauncher.withInterceptedStreams(DefaultLauncher.java:211)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:191)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:128)
+	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.execute(JUnitPlatformProvider.java:188)
+	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.invokeAllTests(JUnitPlatformProvider.java:154)
+	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.invoke(JUnitPlatformProvider.java:128)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:428)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:562)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
+&amp#27;[0m
+
+    Embedding file:///C:/Users/my%20laptop/Documents/NetBeansProjects/mobile-automation/src/test/resources/features/calculatedNumbers.feature:36 [image/png 54837 bytes]
+
+]]></system-out>
+    <system-err><![CDATA[[main] INFO io.cucumber.core.plugin.SerenityReporter - Running feature from file:///C:/Users/my%20laptop/Documents/NetBeansProjects/mobile-automation/src/test/resources/features/calculatedNumbers.feature
+[main] WARN io.cucumber.core.plugin.SerenityReporter - Feature from file:///C:/Users/my%20laptop/Documents/NetBeansProjects/mobile-automation/src/test/resources/features/calculatedNumbers.feature is not under the 'features' directory. Requirements report will not be correctly generated!
+Apr 17, 2022 4:44:05 AM io.appium.java_client.remote.AppiumCommandExecutor$1 lambda$0
+INFO: Detected dialect: W3C
+[main] ERROR  - 
+         __  _____ _____ ____ _____   _____ ____  ____   ___  ____  
+ _      / / |_   _| ____/ ___|_   _| | ____|  _ \|  _ \ / _ \|  _ \ 
+(_)____| |    | | |  _| \___ \ | |   |  _| | |_) | |_) | | | | |_) |
+ |_____| |    | | | |___ ___) || |   | |___|  _ <|  _ <| |_| |  _ < 
+(_)    | |    |_| |_____|____/ |_|   |_____|_| \_\_| \_\\___/|_| \_\
+        \_\                                                         
+
+Multiplying two numbers
+---------------------------------------------------------------------
+[main] ERROR  -     Test failed at step: Then I get the result is "50"
+[main] ERROR  -     An element could not be located on the page using the given search parameters.
+]]></system-err>
+  </testcase>
+  <testcase name="Multiplying two numbers #3" classname="Calculated Numbers" time="72.026">
+    <error type="org.openqa.selenium.TimeoutException"><![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: //android.view.View[@content-desc="2500"] (tried for 30 second(s) with 1000 milliseconds interval)
+Caused by: org.openqa.selenium.NoSuchElementException: 
+An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-T1G9LT0', ip: '192.168.174.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {app: C:\Users\my laptop\Document..., appPackage: com.example.calculator, automationName: UiAutomator2, databaseEnabled: false, desired: {app: C:\Users\my laptop\Document..., automationName: UiAutomator2, platformName: android, platformVersion: 7.0}, deviceApiLevel: 24, deviceManufacturer: Google, deviceModel: Android SDK built for x86, deviceName: emulator-5554, deviceScreenDensity: 420, deviceScreenSize: 1080x1920, deviceUDID: emulator-5554, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, pixelRatio: 2.625, platform: LINUX, platformName: Android, platformVersion: 7.0, statBarHeight: 63, takesScreenshot: true, viewportRect: {height: 1731, left: 0, top: 63, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: 179c4e2d-1bf1-4281-becc-e0bf3bc09024
+*** Element info: {Using=xpath, value=//android.view.View[@content-desc="2500"]}
+]]></error>
+    <system-out><![CDATA[
+Scenario Outline: Multiplying two numbers &amp#27;[90m# src/test/resources/features/calculatedNumbers.feature:37&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mI am on calculator page&amp#27;[0m           &amp#27;[90m# com.example.steps.CalculateStepDefinitions.iAmOnCalculatorPage()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mI click &amp#27;[0m&amp#27;[32m&amp#27;[1m"25"&amp#27;[0m                       &amp#27;[90m# com.example.steps.CalculateStepDefinitions.iClick(java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mI click multiply symbol&amp#27;[0m             &amp#27;[90m# com.example.steps.CalculateStepDefinitions.iClickMultiplySymbol()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mI click &amp#27;[0m&amp#27;[32m&amp#27;[1m"100"&amp#27;[0m                       &amp#27;[90m# com.example.steps.CalculateStepDefinitions.iClick(java.lang.String)&amp#27;[0m
+  &amp#27;[31mThen &amp#27;[0m&amp#27;[31mI get the result is &amp#27;[0m&amp#27;[31m&amp#27;[1m"2500"&amp#27;[0m         &amp#27;[90m# com.example.steps.CalculateStepDefinitions.iGetTheResultIs(java.lang.String)&amp#27;[0m
+      &amp#27;[31morg.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: //android.view.View[@content-desc="2500"] (tried for 30 second(s) with 1000 milliseconds interval)
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:95)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)
+	at com.example.app.base.BasePageObject.find(BasePageObject.java:28)
+	at com.example.app.base.BasePageObject.isDisplayed(BasePageObject.java:44)
+	at com.example.app.pages.CalculatorPage.verifyResultDisplayed(CalculatorPage.java:37)
+	at com.example.steps.CalculateStepDefinitions.iGetTheResultIs(CalculateStepDefinitions.java:30)
+	at âœ½.I get the result is "2500"(file:///C:/Users/my%20laptop/Documents/NetBeansProjects/mobile-automation/src/test/resources/features/calculatedNumbers.feature:32)
+Caused by: org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-T1G9LT0', ip: '192.168.174.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {app: C:\Users\my laptop\Document..., appPackage: com.example.calculator, automationName: UiAutomator2, databaseEnabled: false, desired: {app: C:\Users\my laptop\Document..., automationName: UiAutomator2, platformName: android, platformVersion: 7.0}, deviceApiLevel: 24, deviceManufacturer: Google, deviceModel: Android SDK built for x86, deviceName: emulator-5554, deviceScreenDensity: 420, deviceScreenSize: 1080x1920, deviceUDID: emulator-5554, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, pixelRatio: 2.625, platform: LINUX, platformName: Android, platformVersion: 7.0, statBarHeight: 63, takesScreenshot: true, viewportRect: {height: 1731, left: 0, top: 63, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: 179c4e2d-1bf1-4281-becc-e0bf3bc09024
+*** Element info: {Using=xpath, value=//android.view.View[@content-desc="2500"]}
+	at sun.reflect.GeneratedConstructorAccessor13.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:250)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:41)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:61)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElementByXPath(DefaultGenericMobileDriver.java:151)
+	at io.appium.java_client.AppiumDriver.findElementByXPath(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElementByXPath(AndroidDriver.java:1)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:57)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:205)
+	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:201)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:249)
+	at com.example.app.base.BasePageObject.find(BasePageObject.java:28)
+	at com.example.app.base.BasePageObject.isDisplayed(BasePageObject.java:44)
+	at com.example.app.pages.CalculatorPage.verifyResultDisplayed(CalculatorPage.java:37)
+	at com.example.steps.CalculateStepDefinitions.iGetTheResultIs(CalculateStepDefinitions.java:30)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at io.cucumber.java.Invoker.doInvoke(Invoker.java:66)
+	at io.cucumber.java.Invoker.invoke(Invoker.java:24)
+	at io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:47)
+	at io.cucumber.java.JavaStepDefinition.execute(JavaStepDefinition.java:29)
+	at io.cucumber.core.runner.CoreStepDefinition.execute(CoreStepDefinition.java:66)
+	at io.cucumber.core.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:63)
+	at io.cucumber.core.runner.TestStep.executeStep(TestStep.java:92)
+	at io.cucumber.core.runner.TestStep.run(TestStep.java:63)
+	at io.cucumber.core.runner.PickleStepTestStep.run(PickleStepTestStep.java:49)
+	at io.cucumber.core.runner.TestCase.run(TestCase.java:99)
+	at io.cucumber.core.runner.Runner.runPickle(Runner.java:71)
+	at io.cucumber.junit.PickleRunners$NoStepDescriptions.run(PickleRunners.java:151)
+	at io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:135)
+	at io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:27)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at io.cucumber.junit.CucumberSerenityRunner.runChild(CucumberSerenityRunner.java:234)
+	at io.cucumber.junit.CucumberSerenityRunner.runChild(CucumberSerenityRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at io.cucumber.junit.CucumberSerenityRunner$RunCucumber.evaluate(CucumberSerenityRunner.java:262)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:115)
+	at org.junit.vintage.engine.execution.RunnerExecutor.execute(RunnerExecutor.java:40)
+	at java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:184)
+	at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193)
+	at java.util.Iterator.forEachRemaining(Iterator.java:116)
+	at java.util.Spliterators$IteratorSpliterator.forEachRemaining(Spliterators.java:1801)
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:481)
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:471)
+	at java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:151)
+	at java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:174)
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:418)
+	at org.junit.vintage.engine.VintageTestEngine.executeAllChildren(VintageTestEngine.java:80)
+	at org.junit.vintage.engine.VintageTestEngine.execute(VintageTestEngine.java:71)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:229)
+	at org.junit.platform.launcher.core.DefaultLauncher.lambda$execute$6(DefaultLauncher.java:197)
+	at org.junit.platform.launcher.core.DefaultLauncher.withInterceptedStreams(DefaultLauncher.java:211)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:191)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:128)
+	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.execute(JUnitPlatformProvider.java:188)
+	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.invokeAllTests(JUnitPlatformProvider.java:154)
+	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.invoke(JUnitPlatformProvider.java:128)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:428)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:562)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
+&amp#27;[0m
+
+    Embedding file:///C:/Users/my%20laptop/Documents/NetBeansProjects/mobile-automation/src/test/resources/features/calculatedNumbers.feature:37 [image/png 57157 bytes]
+
+]]></system-out>
+    <system-err><![CDATA[[main] INFO io.cucumber.core.plugin.SerenityReporter - Running feature from file:///C:/Users/my%20laptop/Documents/NetBeansProjects/mobile-automation/src/test/resources/features/calculatedNumbers.feature
+[main] WARN io.cucumber.core.plugin.SerenityReporter - Feature from file:///C:/Users/my%20laptop/Documents/NetBeansProjects/mobile-automation/src/test/resources/features/calculatedNumbers.feature is not under the 'features' directory. Requirements report will not be correctly generated!
+Apr 17, 2022 4:45:15 AM io.appium.java_client.remote.AppiumCommandExecutor$1 lambda$0
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="Dividing two numbers #1" classname="Calculated Numbers" time="36.085">
+    <system-out><![CDATA[
+Scenario Outline: Dividing two numbers &amp#27;[90m# src/test/resources/features/calculatedNumbers.feature:47&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mI am on calculator page&amp#27;[0m        &amp#27;[90m# com.example.steps.CalculateStepDefinitions.iAmOnCalculatorPage()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mI click &amp#27;[0m&amp#27;[32m&amp#27;[1m"2"&amp#27;[0m                     &amp#27;[90m# com.example.steps.CalculateStepDefinitions.iClick(java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mI click divide symbol&amp#27;[0m            &amp#27;[90m# com.example.steps.CalculateStepDefinitions.iClickDivideSymbol()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mI click &amp#27;[0m&amp#27;[32m&amp#27;[1m"1"&amp#27;[0m                      &amp#27;[90m# com.example.steps.CalculateStepDefinitions.iClick(java.lang.String)&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mI get the result is &amp#27;[0m&amp#27;[32m&amp#27;[1m"2"&amp#27;[0m         &amp#27;[90m# com.example.steps.CalculateStepDefinitions.iGetTheResultIs(java.lang.String)&amp#27;[0m
+]]></system-out>
+    <system-err><![CDATA[[main] INFO io.cucumber.core.plugin.SerenityReporter - Running feature from file:///C:/Users/my%20laptop/Documents/NetBeansProjects/mobile-automation/src/test/resources/features/calculatedNumbers.feature
+[main] WARN io.cucumber.core.plugin.SerenityReporter - Feature from file:///C:/Users/my%20laptop/Documents/NetBeansProjects/mobile-automation/src/test/resources/features/calculatedNumbers.feature is not under the 'features' directory. Requirements report will not be correctly generated!
+[main] INFO  - 
+ _____ _____ ____ _____   ____ _____  _    ____ _____ _____ ____  
+|_   _| ____/ ___|_   _| / ___|_   _|/ \  |  _ \_   _| ____|  _ \ 
+  | | |  _| \___ \ | |   \___ \ | | / _ \ | |_) || | |  _| | | | |
+  | | | |___ ___) || |    ___) || |/ ___ \|  _ < | | | |___| |_| |
+  |_| |_____|____/ |_|   |____/ |_/_/   \_\_| \_\|_| |_____|____/ 
+
+Dividing two numbers(calculated-numbers;dividing-two-numbers)
+-------------------------------------------------------------------
+Apr 17, 2022 4:46:26 AM io.appium.java_client.remote.AppiumCommandExecutor$1 lambda$0
+INFO: Detected dialect: W3C
+[main] INFO  - 
+        __    _____ _____ ____ _____   ____   _    ____  ____  _____ ____  
+  _     \ \  |_   _| ____/ ___|_   _| |  _ \ / \  / ___|/ ___|| ____|  _ \ 
+ (_)_____| |   | | |  _| \___ \ | |   | |_) / _ \ \___ \\___ \|  _| | | | |
+  _|_____| |   | | | |___ ___) || |   |  __/ ___ \ ___) |___) | |___| |_| |
+ (_)     | |   |_| |_____|____/ |_|   |_| /_/   \_\____/|____/|_____|____/ 
+        /_/                                                                
+
+Dividing two numbers
+----------------------------------------------------------------------------
+]]></system-err>
+  </testcase>
+  <testcase name="Dividing two numbers #2" classname="Calculated Numbers" time="36.31">
+    <system-out><![CDATA[
+Scenario Outline: Dividing two numbers &amp#27;[90m# src/test/resources/features/calculatedNumbers.feature:48&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mI am on calculator page&amp#27;[0m        &amp#27;[90m# com.example.steps.CalculateStepDefinitions.iAmOnCalculatorPage()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mI click &amp#27;[0m&amp#27;[32m&amp#27;[1m"10"&amp#27;[0m                    &amp#27;[90m# com.example.steps.CalculateStepDefinitions.iClick(java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mI click divide symbol&amp#27;[0m            &amp#27;[90m# com.example.steps.CalculateStepDefinitions.iClickDivideSymbol()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mI click &amp#27;[0m&amp#27;[32m&amp#27;[1m"5"&amp#27;[0m                      &amp#27;[90m# com.example.steps.CalculateStepDefinitions.iClick(java.lang.String)&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mI get the result is &amp#27;[0m&amp#27;[32m&amp#27;[1m"2"&amp#27;[0m         &amp#27;[90m# com.example.steps.CalculateStepDefinitions.iGetTheResultIs(java.lang.String)&amp#27;[0m
+]]></system-out>
+    <system-err><![CDATA[[main] INFO io.cucumber.core.plugin.SerenityReporter - Running feature from file:///C:/Users/my%20laptop/Documents/NetBeansProjects/mobile-automation/src/test/resources/features/calculatedNumbers.feature
+[main] WARN io.cucumber.core.plugin.SerenityReporter - Feature from file:///C:/Users/my%20laptop/Documents/NetBeansProjects/mobile-automation/src/test/resources/features/calculatedNumbers.feature is not under the 'features' directory. Requirements report will not be correctly generated!
+Apr 17, 2022 4:47:01 AM io.appium.java_client.remote.AppiumCommandExecutor$1 lambda$0
+INFO: Detected dialect: W3C
+[main] INFO  - 
+        __    _____ _____ ____ _____   ____   _    ____  ____  _____ ____  
+  _     \ \  |_   _| ____/ ___|_   _| |  _ \ / \  / ___|/ ___|| ____|  _ \ 
+ (_)_____| |   | | |  _| \___ \ | |   | |_) / _ \ \___ \\___ \|  _| | | | |
+  _|_____| |   | | | |___ ___) || |   |  __/ ___ \ ___) |___) | |___| |_| |
+ (_)     | |   |_| |_____|____/ |_|   |_| /_/   \_\____/|____/|_____|____/ 
+        /_/                                                                
+
+Dividing two numbers
+----------------------------------------------------------------------------
+]]></system-err>
+  </testcase>
+  <testcase name="Dividing two numbers #3" classname="Calculated Numbers" time="37.143">
+    <system-out><![CDATA[
+Scenario Outline: Dividing two numbers &amp#27;[90m# src/test/resources/features/calculatedNumbers.feature:49&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mI am on calculator page&amp#27;[0m        &amp#27;[90m# com.example.steps.CalculateStepDefinitions.iAmOnCalculatorPage()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mI click &amp#27;[0m&amp#27;[32m&amp#27;[1m"100"&amp#27;[0m                   &amp#27;[90m# com.example.steps.CalculateStepDefinitions.iClick(java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mI click divide symbol&amp#27;[0m            &amp#27;[90m# com.example.steps.CalculateStepDefinitions.iClickDivideSymbol()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mI click &amp#27;[0m&amp#27;[32m&amp#27;[1m"2"&amp#27;[0m                      &amp#27;[90m# com.example.steps.CalculateStepDefinitions.iClick(java.lang.String)&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mI get the result is &amp#27;[0m&amp#27;[32m&amp#27;[1m"50"&amp#27;[0m        &amp#27;[90m# com.example.steps.CalculateStepDefinitions.iGetTheResultIs(java.lang.String)&amp#27;[0m
+]]></system-out>
+    <system-err><![CDATA[[main] INFO io.cucumber.core.plugin.SerenityReporter - Running feature from file:///C:/Users/my%20laptop/Documents/NetBeansProjects/mobile-automation/src/test/resources/features/calculatedNumbers.feature
+[main] WARN io.cucumber.core.plugin.SerenityReporter - Feature from file:///C:/Users/my%20laptop/Documents/NetBeansProjects/mobile-automation/src/test/resources/features/calculatedNumbers.feature is not under the 'features' directory. Requirements report will not be correctly generated!
+Apr 17, 2022 4:47:38 AM io.appium.java_client.remote.AppiumCommandExecutor$1 lambda$0
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="See history" classname="History" time="35.766">
+    <system-out><![CDATA[
+Scenario: See history              &amp#27;[90m# src/test/resources/features/history.feature:3&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mI am on calculator page&amp#27;[0m    &amp#27;[90m# com.example.steps.CalculateStepDefinitions.iAmOnCalculatorPage()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mI click history button&amp#27;[0m      &amp#27;[90m# com.example.steps.HistoryStepDefinitions.iClickHistoryButton()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mI get the result of history&amp#27;[0m &amp#27;[90m# com.example.steps.HistoryStepDefinitions.iGetTheResultOfHistory()&amp#27;[0m
+]]></system-out>
+    <system-err><![CDATA[[main] INFO io.cucumber.core.plugin.SerenityReporter - Running feature from file:///C:/Users/my%20laptop/Documents/NetBeansProjects/mobile-automation/src/test/resources/features/history.feature
+[main] WARN io.cucumber.core.plugin.SerenityReporter - Feature from file:///C:/Users/my%20laptop/Documents/NetBeansProjects/mobile-automation/src/test/resources/features/history.feature is not under the 'features' directory. Requirements report will not be correctly generated!
+[main] INFO  - 
+ _____ _____ ____ _____   ____ _____  _    ____ _____ _____ ____  
+|_   _| ____/ ___|_   _| / ___|_   _|/ \  |  _ \_   _| ____|  _ \ 
+  | | |  _| \___ \ | |   \___ \ | | / _ \ | |_) || | |  _| | | | |
+  | | | |___ ___) || |    ___) || |/ ___ \|  _ < | | | |___| |_| |
+  |_| |_____|____/ |_|   |____/ |_/_/   \_\_| \_\|_| |_____|____/ 
+
+See history(history;see-history)
+-------------------------------------------------------------------
+Apr 17, 2022 4:48:15 AM io.appium.java_client.remote.AppiumCommandExecutor$1 lambda$0
+INFO: Detected dialect: W3C
+[main] INFO  - 
+        __    _____ _____ ____ _____   ____   _    ____  ____  _____ ____  
+  _     \ \  |_   _| ____/ ___|_   _| |  _ \ / \  / ___|/ ___|| ____|  _ \ 
+ (_)_____| |   | | |  _| \___ \ | |   | |_) / _ \ \___ \\___ \|  _| | | | |
+  _|_____| |   | | | |___ ___) || |   |  __/ ___ \ ___) |___) | |___| |_| |
+ (_)     | |   |_| |_____|____/ |_|   |_| /_/   \_\____/|____/|_____|____/ 
+        /_/                                                                
+
+See history
+----------------------------------------------------------------------------
+]]></system-err>
+  </testcase>
+  <testcase name="Delete history" classname="History" time="37.847">
+    <system-out><![CDATA[
+Scenario: Delete history                     &amp#27;[90m# src/test/resources/features/history.feature:8&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mI am on calculator page&amp#27;[0m              &amp#27;[90m# com.example.steps.CalculateStepDefinitions.iAmOnCalculatorPage()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mI click history button&amp#27;[0m                &amp#27;[90m# com.example.steps.HistoryStepDefinitions.iClickHistoryButton()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mI click delete button&amp#27;[0m                  &amp#27;[90m# com.example.steps.HistoryStepDefinitions.iClickDeleteButton()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mI get the result after delete history&amp#27;[0m &amp#27;[90m# com.example.steps.HistoryStepDefinitions.iGetTheResultAfterDeleteHistory()&amp#27;[0m
+]]></system-out>
+    <system-err><![CDATA[[main] INFO io.cucumber.core.plugin.SerenityReporter - Running feature from file:///C:/Users/my%20laptop/Documents/NetBeansProjects/mobile-automation/src/test/resources/features/history.feature
+[main] WARN io.cucumber.core.plugin.SerenityReporter - Feature from file:///C:/Users/my%20laptop/Documents/NetBeansProjects/mobile-automation/src/test/resources/features/history.feature is not under the 'features' directory. Requirements report will not be correctly generated!
+[main] INFO  - 
+ _____ _____ ____ _____   ____ _____  _    ____ _____ _____ ____  
+|_   _| ____/ ___|_   _| / ___|_   _|/ \  |  _ \_   _| ____|  _ \ 
+  | | |  _| \___ \ | |   \___ \ | | / _ \ | |_) || | |  _| | | | |
+  | | | |___ ___) || |    ___) || |/ ___ \|  _ < | | | |___| |_| |
+  |_| |_____|____/ |_|   |____/ |_/_/   \_\_| \_\|_| |_____|____/ 
+
+Delete history(history;delete-history)
+-------------------------------------------------------------------
+Apr 17, 2022 4:48:51 AM io.appium.java_client.remote.AppiumCommandExecutor$1 lambda$0
+INFO: Detected dialect: W3C
+[main] INFO  - 
+        __    _____ _____ ____ _____   ____   _    ____  ____  _____ ____  
+  _     \ \  |_   _| ____/ ___|_   _| |  _ \ / \  / ___|/ ___|| ____|  _ \ 
+ (_)_____| |   | | |  _| \___ \ | |   | |_) / _ \ \___ \\___ \|  _| | | | |
+  _|_____| |   | | | |___ ___) || |   |  __/ ___ \ ___) |___) | |___| |_| |
+ (_)     | |   |_| |_____|____/ |_|   |_| /_/   \_\____/|____/|_____|____/ 
+        /_/                                                                
+
+Delete history
+----------------------------------------------------------------------------
+]]></system-err>
+  </testcase>
+</testsuite>

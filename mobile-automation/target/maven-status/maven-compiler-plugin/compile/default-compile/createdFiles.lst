@@ -1,0 +1,4 @@
+com\example\app\pages\CalculatorPage.class
+com\example\app\pages\HistoryPage.class
+com\example\app\drivers\AndroidDriverInit.class
+com\example\app\base\BasePageObject.class
