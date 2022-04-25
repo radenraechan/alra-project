@@ -1,0 +1,1 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="0" name="User" skipped="0" tests="1" time="8.04" timestamp="2022-04-15 11:55:31"><testcase name="POST - As an admin I have to be able to create new user"/></testsuite>
