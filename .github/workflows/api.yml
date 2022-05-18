@@ -11,7 +11,7 @@ on:
 
 defaults:
   run:
-    working-directory: rest-assured
+    working-directory: task-api-testing
 
 jobs:
   build:
