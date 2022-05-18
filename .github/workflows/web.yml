@@ -30,7 +30,7 @@ jobs:
       run: mvn -B package --file pom.xml
       
   test:
-    name: Test API Automation
+    name: Web UI Automation
     needs: Build
     runs-on: ubuntu-latest
     steps:
